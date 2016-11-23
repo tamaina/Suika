@@ -5,7 +5,7 @@
 @import "honoka/variables";
 @import "honoka/mixins";
 
-$brand-honoka: #5b1e24;
+$brand-chen: #5b1e24;
 $brand-twitter: #55acee;
 $brand-facebook: #3b5998;
 $brand-hatena: #178fde;
@@ -74,7 +74,7 @@ body {
 	margin-bottom: 0;
 	overflow: hidden;
 	text-align: center;
-	background-color: $brand-honoka;
+	background-color: $brand-chen;
 	color: #eee;
 	background-image: url("../img/circle.png");
 	background-repeat: no-repeat;
@@ -115,7 +115,7 @@ section.section {
 		background-color: $body-bg;
 	}
 	&.section-inverse {
-		background-color: lighten($brand-honoka, 15%);
+		background-color: lighten($brand-chen, 50%);
 	}
 	.subtitle {
 		margin-bottom: $line-height-computed;
