@@ -188,8 +188,9 @@ body {
   min-height: 530px;
   margin-bottom: 0;
   overflow: hidden;
+  color: #eee;
   text-align: center;
-  background-color: #fdcea0;
+  background-color: #5b1e24;
   background-image: url("../img/circle.png");
   background-repeat: no-repeat;
   background-position: -35% center;
@@ -210,7 +211,8 @@ body {
 }
 .jumbotron.special h1,
 .jumbotron.special .h1 {
-  font-family: Montserrat, sans-serif;
+  font-family: 'mgenplus-c-w', sans-serif;
+  font-weight: 700;
 }
 .jumbotron.special .download {
   margin: 24px auto 12px;
@@ -228,7 +230,7 @@ section.section.section-default {
   background-color: #f9f9f9;
 }
 section.section.section-inverse {
-  background-color: #fff5eb;
+  background-color: #95313b;
 }
 section.section .subtitle {
   margin-bottom: 24px;

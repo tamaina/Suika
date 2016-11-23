@@ -5,7 +5,7 @@
 @import "honoka/variables";
 @import "honoka/mixins";
 
-$brand-honoka: #fdcea0;
+$brand-honoka: #5b1e24;
 $brand-twitter: #55acee;
 $brand-facebook: #3b5998;
 $brand-hatena: #178fde;
@@ -75,6 +75,7 @@ body {
 	overflow: hidden;
 	text-align: center;
 	background-color: $brand-honoka;
+	color: #eee;
 	background-image: url("../img/circle.png");
 	background-repeat: no-repeat;
 	background-position: -35% center;
@@ -93,7 +94,8 @@ body {
 	}
 	h1,
 	.h1 {
-		font-family: Montserrat, sans-serif;
+		font-family: 'mgenplus-c-w', sans-serif;
+		font-weight: 700;
 	}
 	.download {
 		margin: $line-height-computed auto ($line-height-computed * 0.5);
