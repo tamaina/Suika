@@ -4,7 +4,7 @@
 
 [https://tamaina.github.io/Chen/](https://tamaina.github.io/Chen/)
 
-[![Chen](assets/img/sample.png)](https://tamaina.github.io/Chen/)
+[![Chen](docs/assets/img/sample.png)](https://tamaina.github.io/Chen/)
 
 "Chen" は日本語も美しく表示できるBootstrapテーマです。
 
