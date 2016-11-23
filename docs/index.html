@@ -224,13 +224,13 @@
     <div class="row">
       <div class="col-xs-12 subtitle">
         <h2>Unavailable on the Bower</h2>
-        <p>Chenは<a href="http://bower.io/">Bower</a>からは利用できません</p>
+        <p>Chenは<a href="http://bower.io/">Bower</a>からは利用できます</p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-8 col-md-offset-2 col-xs-12 text-center">
         <div class="input-group input-group-lg">
-          <input type="text" class="form-control" id="command" value="" onclick="this.select();" readonly="readonly">
+          <input type="text" class="form-control" id="command" value='bower install --save-dev $(node -e "$(curl -fsSL https://cdn.honokak.osaka/last.js)" tamaina Chen)' onclick="this.select();" readonly="readonly">
           <span class="input-group-btn">
             <button type="button" class="btn btn-default" data-clipboard-target="#command"><i class="fa fa-clipboard"></i></button>
           </span>

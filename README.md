@@ -27,7 +27,13 @@
 
 ### Bower
 
-[Bower](http://bower.io/)からインストールすることができません。対応は未定です。
+[Bower](http://bower.io/)からインストールすることができます。パッケージ名は**Chen**です。
+
+以下のコマンドを実行してください。
+
+```
+bower install --save-dev Chen
+```
 
 ## Usage
 
