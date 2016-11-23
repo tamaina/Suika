@@ -1,52 +1,37 @@
-# Honoka
+# Chen
 
-[![Build Status by Travis CI](https://travis-ci.org/windyakin/Honoka.svg?branch=master)](https://travis-ci.org/windyakin/Honoka)
-[![Build status by AppVeyor](https://ci.appveyor.com/api/projects/status/6j4y6bugti7f1aff/branch/master?svg=true)](https://ci.appveyor.com/project/windyakin/honoka/branch/master)
-[![devDependency Status](https://david-dm.org/windyakin/Honoka/dev-status.svg)](https://david-dm.org/windyakin/Honoka#info=devDependencies)
 [![The MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-[http://honokak.osaka/](http://honokak.osaka/)
+[https://tamaina.github.io/Chen/](https://tamaina.github.io/Chen/)
 
-[![Honoka](docs/assets/img/sample.png)](http://honokak.osaka/)
+[![Chen](assets/img/sample.png)](https://tamaina.github.io/Chen/)
 
-"Honoka" は日本語も美しく表示できるBootstrapテーマです。
+"Chen" は日本語も美しく表示できるBootstrapテーマです。
 
-## About "Honoka"
+## About "Chen"
 
-通常の[Bootstrap](http://getbootstrap.com/)では，日本語のフォント指定や文字サイズは最適とはいえません。"Honoka"はそんなBootstrapをベースに，日本語表示に適したフォント指定や，文字サイズに関するコードを追記したBootstrapテーマの一つです。
+通常の[Bootstrap](http://getbootstrap.com/)では、日本語のフォント指定や文字サイズは最適とはいえません。"Chen"のベースとなった["Honoka"](honokak.osaka)は、そんなBootstrapをベースに、日本語表示に適したフォント指定や、文字サイズに関するコードを追記したBootstrapテーマの一つです。
+
+"Chen"では、"Honoka"の改良に加え、WebFontを付加しました。
 
 ## Live Demo
 
- * [http://honokak.osaka/bootstrap-ja.html](http://honokak.osaka/bootstrap-ja.html) (日本語レイアウト)
- * [http://honokak.osaka/bootstrap.html](http://honokak.osaka/bootstrap.html) (英語レイアウト)
+ * [https://tamaina.github.io/Chen/bootstrap-ja.html](https://tamaina.github.io/Chen/bootstrap-ja.html) (日本語レイアウト)
+ * [https://tamaina.github.io/Chen/bootstrap.html](https://tamaina.github.io/Chen/bootstrap.html) (英語レイアウト)
 
 ## Getting Started
 
 ### Download
 
-[Releases](https://github.com/windyakin/Honoka/releases)から最新版をダウンロードしてください。
+[Releases](https://github.com/tamaina/Chen/releases)から最新版をダウンロードしてください。
 
 ### Bower
 
-[Bower](http://bower.io/)からインストールすることができます。
-
-最新版をインストールするには以下のコマンドを実行してください。
-
-```
-bower install --save-dev $(node -e "$(curl -fsSL https://cdn.honokak.osaka/last.js)" windyakin Honoka)
-```
-
-もしcURLが入っていない環境の場合には、
-
-```
-bower install --save-dev Honoka#(version)
-```
-
-``(version)``にはバージョン番号を指定します(ex. ``Honoka#3.3.5-c``)。Honokaの最新バージョン番号は[Releases](https://github.com/windyakin/Honoka/releases)から確認してください。
+[Bower](http://bower.io/)からインストールすることができません。対応は未定です。
 
 ## Usage
 
-Honokaは単なるBootstrapテーマにしか過ぎないため，基本的な使い方は本家Bootstrapとほとんど変わりません。よって以下に書くことは[本家Bootstrap](http://getbootstrap.com/getting-started/)からの引用，もしくはその一部を変更したものです。用意されたCSSクラスやコンポーネントなど，より詳細な使い方のドキュメントは本家Bootstrapの各種リファレンスページをご覧になることを推奨します。
+Chenは単なるBootstrapテーマにしか過ぎないため，基本的な使い方は本家Bootstrapとほとんど変わりません。よって以下に書くことは[本家Bootstrap](http://getbootstrap.com/getting-started/)からの引用，もしくはその一部を変更したものです。用意されたCSSクラスやコンポーネントなど，より詳細な使い方のドキュメントは本家Bootstrapの各種リファレンスページをご覧になることを推奨します。
 
  * [CSS](http://getbootstrap.com/css/)
  * [Components](http://getbootstrap.com/components/)
@@ -57,8 +42,11 @@ Honokaは単なるBootstrapテーマにしか過ぎないため，基本的な�
 配布しているzipファイルの内容物は以下のとおりです。``bootstrap.min.*``といったように，ファイル名に``min``がつくファイルは，改行やインデント・スペーシングをなくした(minifyされた)コードで，ユーザがウェブページを読み込む際の転送量を少なくすることができます。通常はこの``bootstrap.min.*``を使うことをおすすめします。
 
 ```
-honoka/
+master/
+├─ index.html
 ├─ bootstrap.html
+├─ bootstrap-ja.html
+├─ README.md (このファイル)
 ├─ css/
 │   ├─ bootstrap.css
 │   └─ bootstrap.min.css
@@ -77,6 +65,8 @@ honoka/
 
 Bootstrapをつかってウェブページを作成する際に基本となるHTML部分は以下のようになります。CSSやJavaScriptのファイルパスは環境に合わせて変更する必要があります。
 
+Chen v3.3.7-A現在の雛形です。 **v4.0.0へ更新する際、変更が必要になります。**
+
 ```html
 <!DOCTYPE html>
 <html lang="ja">
@@ -84,39 +74,36 @@ Bootstrapをつかってウェブページを作成する際に基本となるHT
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <!-- 上記のmetaタグは *絶対に必要です*. head内に含める他のタグは *これ以降* に書かなければなりません。 -->
+    <title>Bootstrap 雛形</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!-- HTML5 shiv と Respond.js はIE8にHTML5エレメントとmedia queriesをサポートさせます。 -->
+    <!-- 警告: Respond.js はローカル環境(file://から始まるURL)で見る時機能しません。 -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
   <body>
     <h1>Hello, world!</h1>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- bodyの一番最後 -->
+    <!-- jQuery (Bootstrapのjavascriptを動かす為に必要です。) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- 下記はすべてのプラグインを収めたファイルですが、必要に応じて個別のファイルを導入します。 -->
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
 ```
 
-### Do you hate "YuGothic"?
+### Do you hate WebFont?
 
-もしあなたが日本語フォントに游ゴシックを指定したくない場合，その要素に対して``.no-thank-yu``(※``you``ではなく``yu``)を指定することで游ゴシックの指定はされなくなり，Windowsであればメイリオ，Mac OS Xであればヒラギノ角ゴを優先的に使用するようになります。
+WebFontを利用したくない場合は、fork元の[Honoka](http://honokak.osaka)をご利用ください。
 
-例えばページ全体に対して游ゴシックを用いたくない場合は，``<body>``に対して``.no-thank-yu``を指定(``<body class="no-thank-yu">``)することで，ページ全体で游ゴシックは使用されなくなります。
-
-## Build
-
-ビルドの方法については [Wiki](https://github.com/windyakin/Honoka/wiki) をご覧ください。
+[このあたりでWebFontを軽くする(見せる)方法を紹介してたりします。](https://tamaina.github.io/The-Japanese-Web-Fonts/#!HowToSet.md)
 
 ## License
 
@@ -125,3 +112,7 @@ Bootstrapをつかってウェブページを作成する際に基本となるHT
 ## Author
 
  * windyakin ([windyakin.net](http://windyakin.net/))
+
+## Editor
+
+ * tamaina ([tamaina.github.io](https://tamaina.github.io/))
