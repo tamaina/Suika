@@ -1,5 +1,6 @@
 # Chen
 
+[![Build Status by Travis CI](https://travis-ci.org/tamaina/Chen.svg?branch=master)](https://travis-ci.org/tamaina/Chen)
 [![The MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 [https://tamaina.github.io/Chen/](https://tamaina.github.io/Chen/)
