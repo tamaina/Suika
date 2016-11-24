@@ -13,42 +13,42 @@
  */
 
 @font-face {
-  font-family: 'GenShinGothic-w';
+  font-family: "GenShinGothic-w";
   font-weight: 200;
 
   src: url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Light.eot);
   src: url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Light?#iefix.eot) format("embedded-opentype"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Light.woff2) format("woff2"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Light.woff) format("woff"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Light.ttf) format("truetype");
 }
 @font-face {
-  font-family: 'GenShinGothic-w';
+  font-family: "GenShinGothic-w";
   font-weight: 400;
 
   src: url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Regular.eot);
   src: url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Regular.eot?#iefix) format("embedded-opentype"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Regular.woff2) format("woff2"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Regular.woff) format("woff"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Regular.ttf) format("truetype");
 }
 @font-face {
-  font-family: 'GenShinGothic-w';
+  font-family: "GenShinGothic-w";
   font-weight: 700;
 
   src: url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Bold.eot);
   src: url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Bold.eot?#iefix) format("embedded-opentype"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Bold.woff2) format("woff2"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Bold.woff) format("woff"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Bold.ttf) format("truetype");
 }
 @font-face {
-  font-family: 'mgenplus-c-w';
+  font-family: "mgenplus-c-w";
   font-weight: 200;
 
   src: url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/mgenplus-c-light.eot);
   src: url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/mgenplus-c-light.eot?#iefix) format("embedded-opentype"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/mgenplus-c-light.woff2) format("woff2"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/mgenplus-c-light.woff) format("woff"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/mgenplus-c-light.ttf) format("truetype");
 }
 @font-face {
-  font-family: 'mgenplus-c-w';
+  font-family: "mgenplus-c-w";
   font-weight: 400;
 
   src: url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/mgenplus-c-regular.eot);
   src: url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/mgenplus-c-regular.eot?#iefix) format("embedded-opentype"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/mgenplus-c-regular.woff2) format("woff2"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/mgenplus-c-regular.woff) format("woff"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/mgenplus-c-regular.ttf) format("truetype");
 }
 @font-face {
-  font-family: 'mgenplus-c-w';
+  font-family: "mgenplus-c-w";
   font-weight: 700;
 
   src: url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/mgenplus-c-bold.eot);
@@ -8386,17 +8386,17 @@ a {
 }
 
 @media (min-width: 768px) {
-  .navbar-nav > li > a {
+  .navbar-nav li a {
     padding-top: 7px;
     padding-bottom: 7px;
     margin-top: 21px;
     margin-bottom: 21px;
     border-radius: 4px;
   }
-  .navbar-nav > li > .dropdown-menu {
+  .navbar-nav li .dropdown-menu {
     margin-top: -21px;
   }
-  .navbar-nav > li:not(:last-child) {
+  .navbar-nav li:not(:last-child) {
     margin-right: 5px;
   }
 }
