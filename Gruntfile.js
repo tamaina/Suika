@@ -156,6 +156,12 @@ module.exports = function(grunt) {
 			}
 		},
 		copy: {
+			dist: {
+				expand: true,
+				cwd: 'lib/',
+				src: ['fonts/**/*'],
+				dest: 'dist/'
+			},
 			docs: {
 				expand: true,
 				cwd: 'dist/',
@@ -254,10 +260,10 @@ module.exports = function(grunt) {
 	grunt.registerTask('optimize', ['cssmin:minify']);
 
 	// 開発用
-	grunt.registerTask('server', ['bower:install', 'getTwbsConfig', 'test', 'css', 'copy:docs', 'connect', 'watch']);
+	grunt.registerTask('server', ['bower:install', 'getTwbsConfig', 'test', 'css', 'copy:dist', 'copy:docs', 'connect', 'watch']);
 
 	// ビルドタスク
-	grunt.registerTask('build', ['clean:build', 'bower:install', 'getTwbsConfig', 'test', 'css', 'optimize', 'replace:banner', 'copy:docs']);
+	grunt.registerTask('build', ['clean:build', 'bower:install', 'getTwbsConfig', 'test', 'css', 'optimize', 'replace:banner', 'copy:dist', 'copy:docs']);
 
 	// 配布用パッケージ作成
 	grunt.registerTask('package', ['build', 'compress:main']);

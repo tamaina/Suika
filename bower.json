@@ -1,6 +1,6 @@
 {
   "name": "Chen",
-  "description": "Chen is one of the Bootstrap original theme.",
+  "description": "Chen is one of the original Bootstrap theme forked from Honoka. It uses Japanese webfonts.",
   "keywords": [
     "css",
     "sass",
@@ -11,10 +11,12 @@
     "front-end",
     "framework",
     "web",
-    "lovelive"
+    "touhou",
+    "honoka",
+    "webfont"
   ],
   "author": "tamaina",
-  "homepage": "https://tamaina.github.io/",
+  "homepage": "https://tamaina.github.io/Chen",
   "repository": {
     "type": "git",
     "url": "git://github.com/tamaina/Chen.git"

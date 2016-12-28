@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
- * chen v3.9.9
+ * chen v3.9.10
  * Website https://tamaina.github.io/Chen
  * Copyright 2016 tamaina
  * The MIT License
@@ -16,43 +16,43 @@
   font-family: "GenShinGothic-w";
   font-weight: 200;
 
-  src: url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Light.eot);
-  src: url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Light?#iefix.eot) format("embedded-opentype"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Light.woff2) format("woff2"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Light.woff) format("woff"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Light.ttf) format("truetype");
+  src: url(../fonts/GenShinGothic-Light.eot);
+  src: url(../fonts/GenShinGothic-Light?#iefix.eot) format("embedded-opentype"), url(../fonts/GenShinGothic-Light.woff2) format("woff2"), url(../fonts/GenShinGothic-Light.woff) format("woff"), url(../fonts/GenShinGothic-Light.ttf) format("truetype");
 }
 @font-face {
   font-family: "GenShinGothic-w";
   font-weight: 400;
 
-  src: url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Regular.eot);
-  src: url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Regular.eot?#iefix) format("embedded-opentype"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Regular.woff2) format("woff2"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Regular.woff) format("woff"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Regular.ttf) format("truetype");
+  src: url(../fonts/GenShinGothic-Regular.eot);
+  src: url(../fonts/GenShinGothic-Regular.eot?#iefix) format("embedded-opentype"), url(../fonts/GenShinGothic-Regular.woff2) format("woff2"), url(../fonts/GenShinGothic-Regular.woff) format("woff"), url(../fonts/GenShinGothic-Regular.ttf) format("truetype");
 }
 @font-face {
   font-family: "GenShinGothic-w";
   font-weight: 700;
 
-  src: url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Bold.eot);
-  src: url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Bold.eot?#iefix) format("embedded-opentype"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Bold.woff2) format("woff2"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Bold.woff) format("woff"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/GenShinGothic-Bold.ttf) format("truetype");
+  src: url(../fonts/GenShinGothic-Bold.eot);
+  src: url(../fonts/GenShinGothic-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/GenShinGothic-Bold.woff2) format("woff2"), url(../fonts/GenShinGothic-Bold.woff) format("woff"), url(../fonts/GenShinGothic-Bold.ttf) format("truetype");
 }
 @font-face {
-  font-family: "mgenplus-c-w";
+  font-family: "mgenplus-p-w";
   font-weight: 200;
 
-  src: url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/mgenplus-c-light.eot);
-  src: url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/mgenplus-c-light.eot?#iefix) format("embedded-opentype"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/mgenplus-c-light.woff2) format("woff2"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/mgenplus-c-light.woff) format("woff"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/mgenplus-c-light.ttf) format("truetype");
+  src: url(../fonts/mgenplus-p-light.eot);
+  src: url(../fonts/mgenplus-p-light.eot?#iefix) format("embedded-opentype"), url(../fonts/mgenplus-p-light.woff2) format("woff2"), url(../fonts/mgenplus-p-light.woff) format("woff"), url(../fonts/mgenplus-p-light.ttf) format("truetype");
 }
 @font-face {
-  font-family: "mgenplus-c-w";
+  font-family: "mgenplus-p-w";
   font-weight: 400;
 
-  src: url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/mgenplus-c-regular.eot);
-  src: url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/mgenplus-c-regular.eot?#iefix) format("embedded-opentype"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/mgenplus-c-regular.woff2) format("woff2"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/mgenplus-c-regular.woff) format("woff"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/mgenplus-c-regular.ttf) format("truetype");
+  src: url(../fonts/mgenplus-p-regular.eot);
+  src: url(../fonts/mgenplus-p-regular.eot?#iefix) format("embedded-opentype"), url(../fonts/mgenplus-p-regular.woff2) format("woff2"), url(../fonts/mgenplus-p-regular.woff) format("woff"), url(../fonts/mgenplus-p-regular.ttf) format("truetype");
 }
 @font-face {
-  font-family: "mgenplus-c-w";
+  font-family: "mgenplus-p-w";
   font-weight: 700;
 
-  src: url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/mgenplus-c-bold.eot);
-  src: url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/mgenplus-c-bold.eot?#iefix) format("embedded-opentype"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/mgenplus-c-bold.woff2) format("woff2"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/mgenplus-c-bold.woff) format("woff"), url(https://cdn.rawgit.com/tamaina/The-Japanese-Web-Fonts/v5.2.1/fonts/mgenplus-c-bold.ttf) format("truetype");
+  src: url(../fonts/mgenplus-p-bold.eot);
+  src: url(../fonts/mgenplus-p-bold.eot?#iefix) format("embedded-opentype"), url(../fonts/mgenplus-p-bold.woff2) format("woff2"), url(../fonts/mgenplus-p-bold.woff) format("woff"), url(../fonts/mgenplus-p-bold.ttf) format("truetype");
 }
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
@@ -2351,7 +2351,7 @@ html {
 }
 
 body {
-  font-family: "mgenplus-c-w", "GenShinGothic-w", sans-serif;
+  font-family: "mgenplus-p-w", "GenShinGothic-w", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #333;
@@ -2449,7 +2449,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "mgenplus-c-w", "GenShinGothic-w", sans-serif;
+  font-family: "mgenplus-p-w", "GenShinGothic-w", sans-serif;
   font-weight: 300;
   line-height: 1.2;
   color: inherit;
@@ -7583,7 +7583,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "mgenplus-c-w", "GenShinGothic-w", sans-serif;
+  font-family: "mgenplus-p-w", "GenShinGothic-w", sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: normal;
@@ -7706,7 +7706,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "mgenplus-c-w", "GenShinGothic-w", sans-serif;
+  font-family: "mgenplus-p-w", "GenShinGothic-w", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: normal;
@@ -8429,5 +8429,5 @@ a {
 .lead,
 .tooltip,
 .popover {
-  font-family: "mgenplus-c-w", "GenShinGothic-w", sans-serif;
+  font-family: "mgenplus-p-w", "GenShinGothic-w", sans-serif;
 }
