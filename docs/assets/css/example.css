@@ -153,6 +153,15 @@ body {
   margin-top: 80px;
 }
 
+.alpha-bar {
+  display: block;
+  padding: 1em;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  background-color: #48181c;
+}
+
 .social-button {
   position: relative;
   padding: 10px 0;

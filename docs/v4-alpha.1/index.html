@@ -26,10 +26,6 @@
   <link rel="stylesheet" type="text/css" href="assets/css/example.css">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-  <!--[if lt IE 9]>
-    <script src="http://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
 <style>
     .loading{
     background-color: #DDDDDD;
@@ -46,49 +42,37 @@
 <body>
 <div class="loading"></div>
 <header>
-<a href="/Chen/v4-alpha.1/" class="alpha-bar">最新版(v4系)はこちら(開発版・bootstrap v4.0.0-alpha.5準拠)</a>
-  <div class="navbar navbar-default navbar-fixed-top">
+<a href="/Chen" class="alpha-bar">安定版(v3系)はこちら</a>
+  <nav class="navbar navbar-light bg-faded navbar-fixed-top">
     <div class="container">
-      <div class="navbar-header">
-        <a href="/Chen" class="navbar-brand">Chen</a>
-        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <div class="navbar-collapse collapse" id="navbar-main">
+        <a href="/Chen/v4-alpha.1/" class="navbar-brand">Chen</a>
+    	<button class="navbar-toggler hidden-sm-up float-xs-right" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false" aria-label="Toggle navigation"></button>
+			<div class="clearfix hidden-sm-up"></div> <!-- fix navbar responsive bug -->
+      <div class="collapse navbar-toggleable-xs" id="navbar-header">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="/Chen">Top</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">その他 <span class="caret"></span></a>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="./bootstrap.html">デモンストレーション</a></li>
-              <li><a href="https://tamaina.github.io/The-Japanese-Web-Fonts/">Webfont単体</a></li>
-            </ul>
+          <li class="nav-item active">
+            <a href="/Chen/v4-alpha.1/" class="nav-link">Top</a>
           </li>
-          <li><a href="http://github.com/tamaina/Chen/releases" target="_blank">Download</a></li>
+          <li class="nav-item"><a href="./bootstrap.html" class="nav-link">Demo</a></li>
+          <li class="nav-item"><a href="//github.com/tamaina/Chen/releases" class="nav-link">Download</a></li>
+          <li class="nav-item"><a href="//github.com/windyakin/Honoka/wiki" class="nav-link">Honoka Wiki</a></li>
         </ul>
-
-        <div class="nav navbar-form navbar-right">
-          <div class="form-group">
+        <div class="form-inline float-xs-right">
             <a href="//twitter.com/intent/tweet?url=http://tamaina.github.io/Chen/&text=Chen%20%2d%20%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%82%82%e7%be%8e%e3%81%97%e3%81%8f%e8%a1%a8%e7%a4%ba%e3%81%a7%e3%81%8d%e3%82%8bBootstrap%e3%83%86%e3%83%bc%e3%83%9e" class="btn btn-twitter"><i class="fa fa-twitter fa-lg"></i> Tweet</a>
             <a href="http://www.facebook.com/sharer.php?u=http://tamaina.github.io/Chen/" class="btn btn-facebook"><i class="fa fa-facebook fa-lg"></i> Share</a>
             <a href="javascript:window.open('http://b.hatena.ne.jp/add?mode=confirm&is_bm=1&title='+escape(document.title)+'&url='+escape(location.href),%20'_blank',%20'width=520,height=600,resizable=1,scrollbars=1');undefined;" class="btn btn-hatebu"><i class="fa fa-hatebu fa-lg"></i> Bookmark</a>
           </div>
         </div>
-
       </div>
-    </div>
-  </div>
+    </nav>
 </header>
 
 <div class="jumbotron special">
   <div class="container">
     <div class="row">
       <div class="col-xs-12 outline">
-        <h1>Bootstrap Theme for Japanese.</h1>
-        <p>ウェブフォントを使った日本語のためのBootstrapテーマ</p>
+        <h1 class="display-4">Bootstrap Theme for Japanese.</h1>
+        <p style="font-weight: 200;">ウェブフォントを使った日本語のためのBootstrapテーマ</p>
         <div class="download">
           <a href="https://github.com/tamaina/Chen/releases" class="btn btn-warning btn-lg" target="_blank"><i class="fa fa-github-alt"></i> Download from GitHub</a>
           <a href="https://github.com/tamaina/Chen/bootstrap.html" class="btn btn-primary btn-lg"><i class="fa fa-play"></i> Watch Demo</a>
@@ -146,7 +130,7 @@
         </div>
         <div class="point-description">
           <h4>Open Source</h4>
-          <p>作成に使用したファイルは全て公開されています。スタイルシートを変更することで自分好みの設定に変更することも可能です。</p>
+          <p>作成に使用したSASSファイルは全て公開されています。変数の定義ファイルを変更することで自分好みの設定に変更することも可能です。</p>
         </div>
       </div>
       <div class="col-md-3 col-sm-6 point-box">
@@ -167,32 +151,36 @@
     <div class="row">
       <div class="col-xs-12 subtitle">
         <h2>Chenは日本語を美しく表示します</h2>
-<p>英数字部分には「M+ p」を、日本語部分には「Noto Sans CJK JP ･ 源ノ角ゴシック ･ Source Han Sans」を使用しています。ウェイト(太さ)は <span style="font-weight: 200;">light （ライト）</span> / <span style="font-weight: 400;">regular（レギュラー）</span> / <span style="font-weight: 700;">bold（ボールド）</span> の3種類のみ使用しています。</p>
+        <p>英数字部分には「M+ p」を、日本語部分には「Noto Sans CJK JP ･ 源ノ角ゴシック ･ Source Han Sans」を使用しています。ウェイト(太さ)は <span style="font-weight: 200;">light （ライト）</span> / <span style="font-weight: 400;">regular（レギュラー）</span> / <span style="font-weight: 700;">bold（ボールド）</span> の3種類のみ使用しています。</p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-6">
-        <div class="well bootstrap-default text-justify">
+        <div class="card bootstrap-default text-justify">
+					<div class="card-block">
           <h3>従来の日本語表示</h3>
-          <p>
-            愛くるしい笑顔、キュートな寝顔、ぷにぷにほっぺたなんてもう食べちゃいたいくらいのぷにぷに具合である。この前なんか鼻たぶをくすぐったら「くしゅん」っていうとっても愛らしいくしゃみをして、それからちょっぴりすねてたけど、その表情がこれまたすごく可愛い。怒った顔もめちゃくちゃ可愛いし（怖いけど）、泣いた顔もたまらなく可愛い（泣かせたくはないけど）。もはや「立てば可愛く、座れば萌え萌え、歩く姿はもう最高」としか言いようがないほどの可愛さ破壊力世界最強なのである。ちなみに橙のかぶっている帽子は私の手作り（えぇ、かわいい橙が使ってくれるのなら、夜なべでも何でもするでしょうとも）なのだが、やはり似合っている。あれは橙に似合うべくして作られた帽子であり、むしろ橙は何を着たって似合うというのがもはや世界の常識となっているのである。あぁ、橙かわいいよ橙……
-            <br><small>--八雲藍 2016年11月10日 (木) 19:10 (JST)</small></p>
-            <p>「ねぇ。目が怖いよ……」
-            <br><b>〜 藍しゃまの溺愛 について、橙</b>
-            <br><small>――引用元 <a href="http://ja.uncyclopedia.info/wiki/%E6%A9%99_(%E6%9D%B1%E6%96%B9Project)" target="_blank">アンサイクロペディア</a></small>
-          </p>
+            <p>
+              愛くるしい笑顔、キュートな寝顔、ぷにぷにほっぺたなんてもう食べちゃいたいくらいのぷにぷに具合である。この前なんか鼻たぶをくすぐったら「くしゅん」っていうとっても愛らしいくしゃみをして、それからちょっぴりすねてたけど、その表情がこれまたすごく可愛い。怒った顔もめちゃくちゃ可愛いし（怖いけど）、泣いた顔もたまらなく可愛い（泣かせたくはないけど）。もはや「立てば可愛く、座れば萌え萌え、歩く姿はもう最高」としか言いようがないほどの可愛さ破壊力世界最強なのである。ちなみに橙のかぶっている帽子は私の手作り（えぇ、かわいい橙が使ってくれるのなら、夜なべでも何でもするでしょうとも）なのだが、やはり似合っている。あれは橙に似合うべくして作られた帽子であり、むしろ橙は何を着たって似合うというのがもはや世界の常識となっているのである。あぁ、橙かわいいよ橙……
+              <br><small>--八雲藍 2016年11月10日 (木) 19:10 (JST)</small></p>
+              <p>「ねぇ。目が怖いよ……」
+              <br><b>〜 藍しゃまの溺愛 について、橙</b>
+              <br><small>――引用元 <a href="http://ja.uncyclopedia.info/wiki/%E6%A9%99_(%E6%9D%B1%E6%96%B9Project)" target="_blank">アンサイクロペディア</a></small>
+            </p>
+          </div>
         </div>
       </div>
       <div class="col-md-6">
-        <div class="well text-justify">
-          <h3>Chenの日本語表示</h3>
-          <p>
-            愛くるしい笑顔、キュートな寝顔、ぷにぷにほっぺたなんてもう食べちゃいたいくらいのぷにぷに具合である。この前なんか鼻たぶをくすぐったら「くしゅん」っていうとっても愛らしいくしゃみをして、それからちょっぴりすねてたけど、その表情がこれまたすごく可愛い。怒った顔もめちゃくちゃ可愛いし（怖いけど）、泣いた顔もたまらなく可愛い（泣かせたくはないけど）。もはや「立てば可愛く、座れば萌え萌え、歩く姿はもう最高」としか言いようがないほどの可愛さ破壊力世界最強なのである。ちなみに橙のかぶっている帽子は私の手作り（えぇ、かわいい橙が使ってくれるのなら、夜なべでも何でもするでしょうとも）なのだが、やはり似合っている。あれは橙に似合うべくして作られた帽子であり、むしろ橙は何を着たって似合うというのがもはや世界の常識となっているのである。あぁ、橙かわいいよ橙……
-            <br><small>--八雲藍 2016年11月10日 (木) 19:10 (JST)</small></p>
-            <p>「ねぇ。目が怖いよ……」
-            <br><b>〜 藍しゃまの溺愛 について、橙</b>
-            <br><small>――引用元 <a href="http://ja.uncyclopedia.info/wiki/%E6%A9%99_(%E6%9D%B1%E6%96%B9Project)" target="_blank">アンサイクロペディア</a></small>
-          </p>
+        <div class="card text-justify">
+					<div class="card-block">
+            <h3>Chenの日本語表示</h3>
+            <p>
+              愛くるしい笑顔、キュートな寝顔、ぷにぷにほっぺたなんてもう食べちゃいたいくらいのぷにぷに具合である。この前なんか鼻たぶをくすぐったら「くしゅん」っていうとっても愛らしいくしゃみをして、それからちょっぴりすねてたけど、その表情がこれまたすごく可愛い。怒った顔もめちゃくちゃ可愛いし（怖いけど）、泣いた顔もたまらなく可愛い（泣かせたくはないけど）。もはや「立てば可愛く、座れば萌え萌え、歩く姿はもう最高」としか言いようがないほどの可愛さ破壊力世界最強なのである。ちなみに橙のかぶっている帽子は私の手作り（えぇ、かわいい橙が使ってくれるのなら、夜なべでも何でもするでしょうとも）なのだが、やはり似合っている。あれは橙に似合うべくして作られた帽子であり、むしろ橙は何を着たって似合うというのがもはや世界の常識となっているのである。あぁ、橙かわいいよ橙……
+              <br><small>--八雲藍 2016年11月10日 (木) 19:10 (JST)</small></p>
+              <p>「ねぇ。目が怖いよ……」
+              <br><b>〜 藍しゃまの溺愛 について、橙</b>
+              <br><small>――引用元 <a href="http://ja.uncyclopedia.info/wiki/%E6%A9%99_(%E6%9D%B1%E6%96%B9Project)" target="_blank">アンサイクロペディア</a></small>
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -208,7 +196,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12 text-center">
+      <div class="col-md-12 text-xs-center">
         <div class="form-group">
           <a href="http://github.com/tamaina/Chen/releases" class="btn btn-primary btn-lg" target="_blank"><i class="fa fa-github-alt"></i> Download from GitHub</a>
           <p class="help-block">Last version v<span class="last-version"></span> ・ <a href="http://github.com/tamaina/Chen/blob/master/LICENSE">MIT License</a></p>
@@ -224,16 +212,16 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 subtitle">
-        <h2>Unavailable on the Bower</h2>
+        <h2>Available on the Bower</h2>
         <p>Chenは<a href="http://bower.io/" target="_blank">Bower</a>から利用できます</p>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-8 col-md-offset-2 col-xs-12 text-center">
+      <div class="col-md-8 offset-md-2 col-xs-12 text-xs-center">
         <div class="input-group input-group-lg">
-          <input type="text" class="form-control" id="command" value='bower install --save-dev Chen' onclick="this.select();" readonly="readonly">
+          <input type="text" class="form-control" id="command" value="bower install --save-dev Chen" onclick="this.select();" readonly="readonly">
           <span class="input-group-btn">
-            <button type="button" class="btn btn-default" data-clipboard-target="#command"><i class="fa fa-clipboard"></i></button>
+            <button type="button" class="btn btn-secondary" data-clipboard-target="#command"><i class="fa fa-clipboard"></i></button>
           </span>
         </div>
         <p class="help-block">v3.9.9より対応</p>
@@ -252,25 +240,25 @@
     </div>
     <div class="row">
       <div class="col-md-4">
-        <div class="thumbnail">
-          <a href="//proconist.net/" target="_blank"><img src="http://cdn.honokak.osaka/assets/img/proconist.png"></a>
-          <div class="caption text-center">
+        <div class="card">
+          <a href="//proconist.net/" target="_blank"><img src="http://cdn.honokak.osaka/assets/img/proconist.png" class="card-img-top img-fluid"></a>
+          <div class="card-block text-xs-center">
             <h4>Proconist.net</h4>
           </div>
         </div>
       </div>
       <div class="col-md-4">
-        <div class="thumbnail">
-          <a href="http://sugoi.windyakin.net/" target="_blank"><img src="http://cdn.honokak.osaka/assets/img/sugoi.png"></a>
-          <div class="caption text-center">
+        <div class="card">
+          <a href="http://sugoi.windyakin.net/" target="_blank"><img src="http://cdn.honokak.osaka/assets/img/sugoi.png" class="card-img-top img-fluid"></a>
+          <div class="card-block text-xs-center">
             <h4>この高専がすごい！</h4>
           </div>
         </div>
       </div>
       <div class="col-md-4">
-        <div class="thumbnail">
-          <a href="http://yashihei.net/" target="_blank"><img src="http://cdn.honokak.osaka/assets/img/yashihei.png"></a>
-          <div class="caption text-center">
+        <div class="card">
+          <a href="http://yashihei.net/" target="_blank"><img src="http://cdn.honokak.osaka/assets/img/yashihei.png" class="card-img-top img-fluid"></a>
+          <div class="card-block text-xs-center">
             <h4>yashihei.net</h4>
           </div>
         </div>
@@ -278,25 +266,25 @@
     </div>
     <div class="row">
       <div class="col-md-4">
-        <div class="thumbnail">
-          <a href="http://sysken.org/advent2015/" target="_blank"><img src="http://cdn.honokak.osaka/assets/img/sysken.png"></a>
-          <div class="caption text-center">
+        <div class="card">
+          <a href="http://sysken.org/advent2015/" target="_blank"><img src="http://cdn.honokak.osaka/assets/img/sysken.png" class="card-img-top img-fluid"></a>
+          <div class="card-block text-xs-center">
             <h4>SYSKEN Advent Calendar</h4>
           </div>
         </div>
       </div>
       <div class="col-md-4">
-        <div class="thumbnail">
-          <a href="http://timers-inc.com/" target="_blank"><img src="http://cdn.honokak.osaka/assets/img/timers-inc.png"></a>
-          <div class="caption text-center">
+        <div class="card">
+          <a href="http://timers-inc.com/" target="_blank"><img src="http://cdn.honokak.osaka/assets/img/timers-inc.png" class="card-img-top img-fluid"></a>
+          <div class="card-block text-xs-center">
             <h4>TIMERS Inc</h4>
           </div>
         </div>
       </div>
       <div class="col-md-4">
-        <div class="thumbnail">
-          <a href="http://ost.procon-online.net/" target="_blank"><img src="http://cdn.honokak.osaka/assets/img/ost.png"></a>
-          <div class="caption text-center">
+        <div class="card">
+          <a href="http://ost.procon-online.net/" target="_blank"><img src="http://cdn.honokak.osaka/assets/img/ost.png" class="card-img-top img-fluid"></a>
+          <div class="card-block text-xs-center">
             <h4>PROCON O.S.T. Project</h4>
           </div>
         </div>
@@ -313,37 +301,37 @@
         <p>Honokaをベースにして作られた他のBootstrapテーマ</p>
       </div>
     </div>
-    <div class="row">
+    <div class="row row-xs-top">
       <div class="col-md-6">
-        <div class="thumbnail">
-          <a href="http://nkmr6194.github.io/Umi/" target="_blank"><img src="http://cdn.honokak.osaka/assets/img/umi.png"></a>
-          <div class="caption text-center">
+        <div class="card">
+          <a href="http://nkmr6194.github.io/Umi/" target="_blank"><img src="http://cdn.honokak.osaka/assets/img/umi.png" class="card-img-top img-fluid"></a>
+          <div class="card-block text-xs-center">
             <h4>Umi</h4>
             <p>"Umi"は"Honoka"に<a href="//bootswatch.com/flatly/" target="_blank">Bootswatch Flatly</a>の配色を適用したテーマです。</p>
             <div>
               <a href="http://nkmr6194.github.io/Umi/" class="btn btn-primary" target="_blank">Umiの特設ページ <i class="fa fa-external-link"></i></a>
-              <a href="https://github.com/NKMR6194/Umi" class="btn btn-default" target="_blank">Umi on GitHub <i class="fa fa-github-alt"></i></a>
+              <a href="https://github.com/NKMR6194/Umi" class="btn btn-secondary" target="_blank">Umi on GitHub <i class="fa fa-github-alt"></i></a>
             </div>
           </div>
         </div>
       </div>
       <div class="col-md-6">
-        <div class="thumbnail">
-          <a href="http://nico.kubosho.com/" target="_blank"><img src="http://cdn.honokak.osaka/assets/img/nico.png"></a>
-          <div class="caption text-center">
+        <div class="card">
+          <a href="http://nico.kubosho.com/" target="_blank"><img src="http://cdn.honokak.osaka/assets/img/nico.png" class="card-img-top img-fluid"></a>
+          <div class="card-block text-xs-center">
             <h4>Nico</h4>
             <p>"Nico"は"Honoka"にピンク系の配色を適用したテーマです。</p>
             <div>
               <a href="http://nico.kubosho.com/" class="btn btn-primary" target="_blank">Nicoの特設ページ <i class="fa fa-external-link"></i></a>
-              <a href="https://github.com/kubosho/Nico" class="btn btn-default" target="_blank">Nico on GitHub <i class="fa fa-github-alt"></i></a>
+              <a href="https://github.com/kubosho/Nico" class="btn btn-secondary" target="_blank">Nico on GitHub <i class="fa fa-github-alt"></i></a>
             </div>
           </div>
         </div>
       </div>
       <div class="col-md-6">
-        <div class="thumbnail">
-          <a href="http://rinhoshizo.la/" target="_blank"><img src="http://cdn.honokak.osaka/assets/img/rin.png"></a>
-          <div class="caption text-center">
+        <div class="card">
+          <a href="http://rinhoshizo.la/" target="_blank"><img src="http://cdn.honokak.osaka/assets/img/rin.png" class="card-img-top img-fluid"></a>
+          <div class="card-block text-xs-center">
             <h4>Rin</h4>
             <p>"Rin"は"Honoka"を元にしたMaterial Design風のテーマです。</p>
             <div>
@@ -354,9 +342,9 @@
         </div>
       </div>
       <div class="col-md-6">
-        <div class="thumbnail">
-          <a href="http://sairoutine.github.io/Frandre/" target="_blank"><img src="http://sairoutine.github.io/Frandre/assets/img/sample.png"></a>
-          <div class="caption text-center">
+        <div class="card">
+          <a href="http://sairoutine.github.io/Frandre/" target="_blank"><img src="http://sairoutine.github.io/Frandre/assets/img/sample.png" class="card-img-top img-fluid"></a>
+          <div class="card-block text-xs-center">
             <h4>Frandre</h4>
             <p>"Frandre"は"Honoka"を元にしたUbuntu風のテーマです。</p>
             <div>
@@ -367,9 +355,9 @@
         </div>
       </div>
       <div class="col-md-6">
-        <div class="thumbnail">
-          <a href="https://sairoutine.github.io/Alice/" target="_blank"><img src="https://sairoutine.github.io/Alice/assets/img/sample.png"></a>
-          <div class="caption text-center">
+        <div class="card">
+          <a href="https://sairoutine.github.io/Alice/" target="_blank"><img src="https://sairoutine.github.io/Alice/assets/img/sample.png" class="card-img-top img-fluid"></a>
+          <div class="card-block text-xs-center">
             <h4>Alice</h4>
             <p>"Alice"は"Honoka"に<a href="//bootswatch.com/journal/" target="_blank">Bootswatch Journal</a>の配色を適用したテーマです。</p>
             <div>
@@ -380,9 +368,9 @@
         </div>
       </div>
       <div class="col-md-6">
-        <div class="thumbnail">
-          <a href="http://sairoutine.github.io/Kochiya/" target="_blank"><img src="https://sairoutine.github.io/Kochiya/assets/img/sample.png"></a>
-          <div class="caption text-center">
+        <div class="card">
+          <a href="http://sairoutine.github.io/Kochiya/" target="_blank"><img src="https://sairoutine.github.io/Kochiya/assets/img/sample.png" class="card-img-top img-fluid"></a>
+          <div class="card-block text-xs-center">
             <h4>Kochiya</h4>
             <p>"Kochiya"は"Honoka"に<a href="//bootswatch.com/yeti/" target="_blank">Bootswatch Yeti</a>の配色を適用したテーマです。</p>
             <div>
@@ -403,7 +391,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12 text-center">
+      <div class="col-xs-12 text-xs-center">
         <ul class="list-inline featured-list">
           <li><a href="http://www.moongift.jp/2015/06/honoka-%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%82%82%E7%B6%BA%E9%BA%97%E3%81%AB%E8%A1%A8%E7%A4%BA%E3%81%A7%E3%81%8D%E3%82%8Bbootstrap%E3%83%86%E3%83%BC%E3%83%9E/"><img src="http://cdn.honokak.osaka/assets/img/moongift.png" alt="MOONGIFT"></a></li>
           <li><a href="http://coliss.com/articles/build-websites/operation/work/bootstrap-theme-honoka.html"><img src="http://cdn.honokak.osaka/assets/img/coliss.png" alt="コリス"></a></li>
@@ -426,15 +414,16 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 text-center copyright">
+      <div class="col-xs-12 text-xs-center copyright">
         &copy; 2016 Chen
       </div>
     </div>
   </div>
 </footer>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.5/clipboard.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script>
 new Clipboard('.btn');
