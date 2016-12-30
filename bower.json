@@ -1,5 +1,5 @@
 {
-  "name": "Chen",
+  "name": "chen",
   "description": "Chen is one of the Bootstrap original theme for Japanese.",
   "keywords": [
     "css",
@@ -23,7 +23,7 @@
   "license": "MIT",
   "moduleType": "globals",
   "main": [
-    "dist/css/bootstrap.min.css"
+    "dist/css/bootstrap.css"
   ],
   "ignore": [
     "/.*",
