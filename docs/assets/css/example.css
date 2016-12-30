@@ -246,7 +246,7 @@ body
 
     text-align: center;
 
-    background-color: #fdcea0;
+    background-color: #de9aa1;
     background-image: url('../img/circle.png');
     background-repeat: no-repeat;
     background-position: -35% center;
@@ -271,7 +271,8 @@ body
 .jumbotron.special h1,
 .jumbotron.special .h1
 {
-    font-family: Montserrat, sans-serif;
+    font-family: 'mgenplus-p-w', sans-serif;
+    font-weight: 700;
 }
 .jumbotron.special .download
 {
@@ -295,7 +296,12 @@ section.section.section-default
 }
 section.section.section-inverse
 {
-    background-color: #fff5eb;
+    color: #fff;
+    background-color: #95313b;
+}
+section.section.section-inverse .card
+{
+    color: #000;
 }
 section.section .subtitle
 {

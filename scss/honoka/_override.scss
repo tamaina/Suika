@@ -6,26 +6,3 @@ a, .btn {
 	transition-duration: 0.3s;
 	transition-property: background-color;
 }
-
-// フォント指定
-.no-thank-yu,
-.navbar,
-.btn,
-.form-control,
-.input-gruop,
-.breadcrumb,
-.nav-tabs,
-.nav-pills,
-.panel-title,
-.list-group,
-.pagination,
-.pager,
-.alert,
-.label,
-.badge,
-.panel-heading,
-.lead,
-.tooltip,
-.popover {
-	font-family: $font-family-sans-serif;
-}

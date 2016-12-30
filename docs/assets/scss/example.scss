@@ -5,7 +5,7 @@
 @import "honoka/variables";
 @import "bootstrap/scss/mixins";
 
-$brand-honoka: #fdcea0;
+$brand-chen: #5b1e24;
 $brand-twitter: #55acee;
 $brand-facebook: #3b5998;
 $brand-hatena: #178fde;
@@ -74,7 +74,7 @@ body {
 	margin-bottom: 0;
 	overflow: hidden;
 	text-align: center;
-	background-color: $brand-honoka;
+	background-color: lighten($brand-chen, 50%);
 	background-image: url("../img/circle.png");
 	background-repeat: no-repeat;
 	background-position: -35% center;
@@ -93,7 +93,8 @@ body {
 	}
 	h1,
 	.h1 {
-		font-family: Montserrat, sans-serif;
+		font-family: 'mgenplus-p-w', sans-serif;
+		font-weight: 700;
 	}
 	.download {
 		margin: 1.5rem auto (1.5rem * 0.5);
@@ -113,7 +114,11 @@ section.section {
 		background-color: $body-bg;
 	}
 	&.section-inverse {
-		background-color: lighten($brand-honoka, 15%);
+		color: #fff;
+		background-color: lighten($brand-chen, 15%);
+		.card {
+			color: #000;
+		}
 	}
 	.subtitle {
 		margin-bottom: 1.5rem;
