@@ -1,5 +1,5 @@
 {
-  "name": "Chen",
+  "name": "chen",
   "description": "Chen is one of the original Bootstrap theme forked from Honoka. It uses Japanese webfonts.",
   "keywords": [
     "css",
@@ -24,7 +24,7 @@
   "license": "MIT",
   "moduleType": "globals",
   "main": [
-    "dist/css/bootstrap.min.css"
+    "dist/css/bootstrap.css"
   ],
   "ignore": [
     "/.*",
