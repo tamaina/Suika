@@ -141,6 +141,11 @@ module.exports = function(grunt) {
 				src: ['js/bootstrap**.js'],
 				dest: 'dist/'
 			},
+			documents: {
+				expand: true,
+				src: ['*.md'],
+				dest: 'dist/'
+			},
 			dist: {
 				expand: true,
 				cwd: 'lib/',
@@ -241,7 +246,7 @@ module.exports = function(grunt) {
 	grunt.registerTask('server', ['bower:install', 'test', 'css', 'copy:dist', 'copy:docs', 'connect', 'watch']);
 
 	// ビルドタスク
-	grunt.registerTask('build', ['clean:build', 'bower:install', 'copy:bower', 'getTwbsConfig', 'test', 'css', 'optimize', 'replace:banner', 'copy:dist', 'copy:docs']);
+	grunt.registerTask('build', ['clean:build', 'bower:install', 'copy:bower', 'getTwbsConfig', 'test', 'css', 'optimize', 'replace:banner', 'copy:dist', 'copy:documents', 'copy:docs']);
 
 	// 配布用パッケージ作成
 	grunt.registerTask('package', ['build', 'compress:main']);
