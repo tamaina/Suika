@@ -143,6 +143,12 @@ module.exports = function(grunt) {
 			},
 			docs: {
 				expand: true,
+				cwd: 'lib/',
+				src: ['{css,fonts,js}/**/*'],
+				dest: 'dist/'
+			},
+			docs: {
+				expand: true,
 				cwd: 'dist/',
 				src: ['{css,fonts,js}/**/*'],
 				dest: 'docs/'

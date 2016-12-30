@@ -1,16 +1,3 @@
-@charset 'UTF-8';
-/*!
- * Honoka v4.0.0-alpha.1
- * Website http://honokak.osaka/
- * Copyright 2015 windyakin
- * The MIT License
- */
-/*!
- * Bootstrap v4.0.0-alpha.5 (https://getbootstrap.com)
- * Copyright 2011-2016 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
- * Licensed under the MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-
 /*! normalize.css v4.2.0 | MIT License | github.com/necolas/normalize.css */
 html
 {
@@ -424,7 +411,7 @@ html
 
 body
 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
+    font-family: 'mgenplus-p-w', 'GenShinGothic-w', sans-serif;
     font-size: 1rem;
     line-height: 1.5;
 
@@ -689,7 +676,7 @@ h6,
 .h5,
 .h6
 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, 'Arial', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
+    font-family: 'mgenplus-p-w', 'GenShinGothic-w', sans-serif;
     font-weight: 600;
     line-height: 1.1;
 
@@ -7382,7 +7369,7 @@ button.close
 }
 .tooltip
 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
+    font-family: 'mgenplus-p-w', 'GenShinGothic-w', sans-serif;
     font-size: .875rem;
     font-weight: normal;
     font-style: normal;
@@ -7513,7 +7500,7 @@ button.close
 
 .popover
 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
+    font-family: 'mgenplus-p-w', 'GenShinGothic-w', sans-serif;
     font-size: .875rem;
     font-weight: normal;
     font-style: normal;
@@ -9000,5 +8987,5 @@ a,
 .tooltip,
 .popover
 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, 'Arial', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
+    font-family: 'mgenplus-p-w', 'GenShinGothic-w', sans-serif;
 }

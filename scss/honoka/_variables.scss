@@ -1,3 +1,4 @@
+@charset "utf-8";
 // Variables
 //
 // Copy settings from this file into the provided `_custom.scss` to override
@@ -163,11 +164,11 @@ $grid-gutter-widths: (
 // Typography
 //
 // Font, line-height, and color for body text, headings, and more.
-
-$font-family-humanist-sans-serif: -apple-system, BlinkMacSystemFont, 'Open Sans', 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif !default;
-$font-family-sans-serif:     -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, 'Arial', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif !default;
-$font-family-serif:          'Times New Roman', Times, '游明朝体', YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'ＭＳ Ｐ明朝', 'MS PMincho', 'MS 明朝', serif !default;
-$font-family-monospace:      Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-webfont-url: "../" !default;
+$font-family-humanist-sans-serif: 'mgenplus-p-w', 'GenShinGothic-w', sans-serif !default;
+$font-family-sans-serif: 'mgenplus-p-w', 'GenShinGothic-w', sans-serif !default;
+$font-family-serif: 'Times New Roman', Times, '游明朝体', YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'ＭＳ Ｐ明朝', 'MS PMincho', 'MS 明朝', serif !default;
+$font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $font-family-base: $font-family-humanist-sans-serif !default;
 
 // Pixel value used to responsively scale all typography. Applied to the `<html>` element.
