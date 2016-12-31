@@ -196,6 +196,13 @@ module.exports = function(grunt) {
 						dest: name +"/js"
 					},
 					{
+						// Fonts
+						expand: true,
+						cwd: "dist/fonts/",
+						src: ["**/*"],
+						dest: name +"/fonts"
+					},
+					{
 						// Sample
 						expand: true,
 						cwd: "docs/",

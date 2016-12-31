@@ -81,7 +81,7 @@ Bootstrapをつかってウェブページを作成する際に基本となるHT
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- 上記のmetaタグ群は必須ですので、常にhtmlの最初に書かれるようにしてください。 -->
     <title>Bootstrap 雛形</title>
 
