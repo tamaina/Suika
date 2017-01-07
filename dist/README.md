@@ -23,8 +23,7 @@
 
 ## Live Demo
 
- * [https://tamaina.github.io/Chen/bootstrap-ja.html](https://tamaina.github.io/Chen/bootstrap-ja.html) (日本語レイアウト)
- * [https://tamaina.github.io/Chen/bootstrap.html](https://tamaina.github.io/Chen/bootstrap.html) (英語レイアウト)
+ * [日本語デモ: https://tamaina.github.io/Chen/bootstrap.html](https://tamaina.github.io/Chen/bootstrap.html) 
 
 ## Getting Started
 
@@ -39,16 +38,14 @@
 以下のコマンドを実行してください。
 
 ```
-bower install --save-dev Chen
+bower install --save-dev Chen#v4.0.0-alpha.1
 ```
 
 ## Usage
 
-Chenは単なるBootstrapテーマにしか過ぎないため，基本的な使い方は本家Bootstrapとほとんど変わりません。よって以下に書くことは[本家Bootstrap](http://getbootstrap.com/getting-started/)からの引用，もしくはその一部を変更したものです。用意されたCSSクラスやコンポーネントなど，より詳細な使い方のドキュメントは本家Bootstrapの各種リファレンスページをご覧になることを推奨します。
+Chenは単なるBootstrapテーマにしか過ぎないため，基本的な使い方は本家Bootstrapとほとんど変わりません。よって以下に書くことは[本家Bootstrap](http://v4-alpha.getbootstrap.com/getting-started/)からの引用，もしくはその一部を変更したものです。用意されたCSSクラスやコンポーネントなど，より詳細な使い方のドキュメントは本家Bootstrapの各種リファレンスページをご覧になることを推奨します。
 
- * [CSS](http://getbootstrap.com/css/)
- * [Components](http://getbootstrap.com/components/)
- * [JavaScript](http://getbootstrap.com/javascript/)
+* [Documentation](http://v4-alpha.getbootstrap.com/getting-started/introduction/)
 
 ### Package
 
@@ -93,8 +90,8 @@ Bootstrapをつかってウェブページを作成する際に基本となるHT
 
     <!-- bodyの一番最後 -->
     <!-- 「①jquery(v3系)」「②Tether」「③bootstrap(.min).js」の順で読み込みます。 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

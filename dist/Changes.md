@@ -4,7 +4,7 @@
 
 ----
 
-## [Last/PRE] v4.0.0-alpha.1
+## [Last/PRE] v4.0.0-alpha.2
 
 ### 【変更点】
 

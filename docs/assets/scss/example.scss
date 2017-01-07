@@ -32,10 +32,6 @@ $brand-hatena: #178fde;
 	content: "B!";
 }
 
-body {
-	margin-top: $navbar-padding-y * 2 + $navbar-toggler-padding-y * 2 + 1rem * $line-height-base;
-}
-
 .social-button {
 	position: relative;
 	padding: $spacer-y 0;

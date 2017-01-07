@@ -1,3 +1,4 @@
+@charset 'UTF-8';
 @font-face
 {
     font-family: 'GenShinGothic-w';
@@ -3976,35 +3977,35 @@ fieldset[disabled] a.btn
 
 .btn-secondary
 {
-    color: #373a3c;
-    border-color: #ccc;
-    background-color: #fff;
+    color: #fff;
+    border-color: #373a3c;
+    background-color: #373a3c;
 }
 .btn-secondary:hover
 {
-    color: #373a3c;
-    border-color: #adadad;
-    background-color: #e6e6e6;
+    color: #fff;
+    border-color: #1a1b1c;
+    background-color: #1f2021;
 }
 .btn-secondary:focus,
 .btn-secondary.focus
 {
-    -webkit-box-shadow: 0 0 0 2px rgba(204, 204, 204, .5);
-            box-shadow: 0 0 0 2px rgba(204, 204, 204, .5);
+    -webkit-box-shadow: 0 0 0 2px rgba(55, 58, 60, .5);
+            box-shadow: 0 0 0 2px rgba(55, 58, 60, .5);
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled
 {
-    border-color: #ccc;
-    background-color: #fff;
+    border-color: #373a3c;
+    background-color: #373a3c;
 }
 .btn-secondary:active,
 .btn-secondary.active,
 .show > .btn-secondary.dropdown-toggle
 {
-    color: #373a3c;
-    border-color: #adadad;
-    background-color: #e6e6e6;
+    color: #fff;
+    border-color: #1a1b1c;
+    background-color: #1f2021;
     background-image: none;
 }
 
@@ -4180,27 +4181,27 @@ fieldset[disabled] a.btn
 
 .btn-outline-secondary
 {
-    color: #ccc;
-    border-color: #ccc;
+    color: #373a3c;
+    border-color: #373a3c;
     background-color: transparent;
     background-image: none;
 }
 .btn-outline-secondary:hover
 {
     color: #fff;
-    border-color: #ccc;
-    background-color: #ccc;
+    border-color: #373a3c;
+    background-color: #373a3c;
 }
 .btn-outline-secondary:focus,
 .btn-outline-secondary.focus
 {
-    -webkit-box-shadow: 0 0 0 2px rgba(204, 204, 204, .5);
-            box-shadow: 0 0 0 2px rgba(204, 204, 204, .5);
+    -webkit-box-shadow: 0 0 0 2px rgba(55, 58, 60, .5);
+            box-shadow: 0 0 0 2px rgba(55, 58, 60, .5);
 }
 .btn-outline-secondary.disabled,
 .btn-outline-secondary:disabled
 {
-    color: #ccc;
+    color: #373a3c;
     background-color: transparent;
 }
 .btn-outline-secondary:active,
@@ -4208,8 +4209,8 @@ fieldset[disabled] a.btn
 .show > .btn-outline-secondary.dropdown-toggle
 {
     color: #fff;
-    border-color: #ccc;
-    background-color: #ccc;
+    border-color: #373a3c;
+    background-color: #373a3c;
 }
 
 .btn-outline-info
@@ -5421,7 +5422,7 @@ tbody.collapse.show
     display:         flex;
             flex-direction: column;
 
-    padding: .5rem 1rem;
+    padding: 1rem 1rem;
 
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -6060,7 +6061,7 @@ tbody.collapse.show
     padding: .75rem 1.25rem;
 
     border-bottom: 1px solid rgba(0, 0, 0, .125);
-    background-color: #fff;
+    background-color: #eceeef;
 }
 .card-header:first-child
 {
@@ -6072,7 +6073,7 @@ tbody.collapse.show
     padding: .75rem 1.25rem;
 
     border-top: 1px solid rgba(0, 0, 0, .125);
-    background-color: #fff;
+    background-color: #eceeef;
 }
 .card-footer:last-child
 {
@@ -6157,7 +6158,7 @@ tbody.collapse.show
 
 .card-outline-secondary
 {
-    border-color: #ccc;
+    border-color: #373a3c;
     background-color: transparent;
 }
 
@@ -12649,4 +12650,60 @@ a.text-gray-dark:hover
     {
         display: none !important;
     }
+}
+
+a,
+a img,
+.btn,
+button,
+input,
+.custom-file-control,
+html [type='button'],
+[type='reset'],
+[type='submit'],
+.table-hover tbody tr
+{
+    -webkit-transition-timing-function: ease;
+         -o-transition-timing-function: ease;
+            transition-timing-function: ease;
+    -webkit-transition-duration: .25s;
+         -o-transition-duration: .25s;
+            transition-duration: .25s;
+    -webkit-transition-property: all;
+         -o-transition-property: all;
+            transition-property: all;
+}
+
+a:focus img,
+a:hover img
+{
+    -webkit-filter: brightness(85%) blur(1px);
+            filter: brightness(85%) blur(1px);
+}
+
+a:active img
+{
+    -webkit-filter: brightness(70%) blur(1px);
+            filter: brightness(70%) blur(1px);
+}
+
+.alert p,
+.list-group-item p
+{
+    margin: 0;
+}
+
+.custom-file-control::before
+{
+    content: '選択';
+}
+
+.custom-file-control::after
+{
+    content: 'ファイルの挿入';
+}
+
+.btn-group-vertical .btn
+{
+    margin: 0;
 }

@@ -19,7 +19,7 @@ a:active {
 	}
 }
 
-.alert {
+.alert, .list-group-item {
 	p {
 		margin: 0;
 	}
@@ -31,4 +31,10 @@ a:active {
 
 .custom-file-control::after {
 	content: "ファイルの挿入";
+}
+
+.btn-group-vertical {
+	.btn {
+		margin: 0;
+	}
 }
