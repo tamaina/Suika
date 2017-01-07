@@ -272,7 +272,7 @@ $font-size-h6: 1rem !default;
 
 $headings-margin-bottom: ($spacer / 2) !default;
 $headings-font-family:   inherit !default;
-$headings-font-weight:   500 !default;
+$headings-font-weight:   600 !default;
 $headings-line-height:   1.1 !default;
 $headings-color:         inherit !default;
 
@@ -410,7 +410,7 @@ $btn-border-radius:              $border-radius !default;
 $btn-border-radius-lg:           $border-radius-lg !default;
 $btn-border-radius-sm:           $border-radius-sm !default;
 
-$btn-transition:                 all .2s ease-in-out !default;
+$btn-transition:                 all .75s ease-in-out !default;
 
 
 // Forms

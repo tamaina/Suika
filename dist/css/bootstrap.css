@@ -1,4 +1,17 @@
 @charset 'UTF-8';
+/*!
+ * chen v4.0.0-alpha.2
+ * Website https://tamaina.github.io/Chen
+ * Copyright 2015 tamaina
+ * The MIT License
+ * Based on Honoka (http://honokak.osaka/) by windyakin
+ */
+/*!
+ * Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
+ * Copyright 2011-2017 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+ * Licensed under the MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
 @font-face
 {
     font-family: 'GenShinGothic-w';
@@ -732,7 +745,7 @@ h6,
 .h6
 {
     font-family: inherit;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.1;
 
     margin-bottom: .5rem;
@@ -3900,9 +3913,9 @@ select.form-control-lg:not([size]):not([multiple]),
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
-    -webkit-transition: all .2s ease-in-out;
-         -o-transition: all .2s ease-in-out;
-            transition: all .2s ease-in-out;
+    -webkit-transition: all .75s ease-in-out;
+         -o-transition: all .75s ease-in-out;
+            transition: all .75s ease-in-out;
     text-align: center;
     vertical-align: middle;
     white-space: nowrap;
