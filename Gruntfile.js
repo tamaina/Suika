@@ -256,7 +256,7 @@ module.exports = function(grunt) {
 	grunt.registerTask('build', ['clean:build', 'bower:install', 'copy:bower', 'getTwbsConfig', 'test', 'css', 'optimize', 'replace:banner', 'copy:dist', 'copy:documents', 'copy:docs']);
 
 	// 配布用パッケージ作成
-	grunt.registerTask('package', ['build', 'compress:main']);
+	grunt.registerTask('package', ['compress:main']);
 
 	grunt.registerTask('eatwarnings', function() {
 		grunt.warn = grunt.fail.warn = function(warning) {

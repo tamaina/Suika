@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上記のmetaタグは *絶対に必要です*. head内に含める他のタグは *これ以降* に書かなければなりません。 -->
+    <title>Bootstrap 雛形</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/example.css">
+  </head>
+  <body>
+<header>
+  <nav class="navbar navbar-light bg-faded navbar-fixed-top">
+    <div class="container">
+        <a href="/Chen/v4-alpha.1/" class="navbar-brand">Chen</a>
+    	<button class="navbar-toggler hidden-sm-up float-xs-right" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false" aria-label="Toggle navigation"></button>
+			<div class="clearfix hidden-sm-up"></div> <!-- fix navbar responsive bug -->
+      <div class="collapse navbar-toggleable-xs" id="navbar-header">
+        <ul class="nav navbar-nav">
+          <li class="nav-item active">
+            <a href="/Chen/v4-alpha.1/" class="nav-link">アイテム</a>
+          </li>
+          <li class="nav-item"><a href="./bootstrap.html" class="nav-link">アイテム</a></li>
+          <li class="nav-item"><a href="//github.com/tamaina/Chen/releases" class="nav-link">アイテム</a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="http://example.com" id="supportedContentDropdown2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">メニュー</a>
+                  <div class="dropdown-menu" aria-labelledby="supportedContentDropdown2">
+                    <a class="dropdown-item" href="javascript:void(0);">八雲 紫</a>
+                    <a class="dropdown-item" href="javascript:void(0);">八雲 藍</a>
+                    <a class="dropdown-item" href="javascript:void(0);">橙</a>
+                  </div>
+                </li>
+        </ul>
+        </div>
+      </div>
+    </nav>
+</header>
+<div class="jumbotron special" style="height: 227px;min-height: 227px;padding: 70px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 class="display-4">Chen</h1>
+        <p style="font-weight: 200;">ウェブフォントを使った日本語のためのBootstrapテーマ</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <div class="row">
+      <div class="col-lg-12" style="padding:20px;">
+
+        <p style="text-align: center;">
+          <a href="#" class="btn btn-primary">Primary</a>
+          <a href="#" class="btn btn-secondary">Secondary</a>
+          <a href="#" class="btn btn-success">Success</a>
+          <a href="#" class="btn btn-info">Info</a>
+          <a href="#" class="btn btn-warning">Warning</a>
+          <a href="#" class="btn btn-danger">Danger</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- bodyの一番最後 -->
+    <!-- 「①jquery(v3系)」「②Tether」「③bootstrap(.min).js」の順で読み込みます。 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

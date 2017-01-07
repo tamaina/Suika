@@ -23,46 +23,22 @@
 .btn-twitter:focus,
 .btn-twitter.focus
 {
-    color: #fff;
-    border-color: #178ce5;
-    background-color: #2795e9;
+    box-shadow: 0 0 0 2px rgba(76, 167, 237, .5);
+}
+.btn-twitter.disabled,
+.btn-twitter:disabled
+{
+    border-color: #4ca7ed;
+    background-color: #55acee;
 }
 .btn-twitter:active,
 .btn-twitter.active,
-.open > .btn-twitter.dropdown-toggle
+.show > .btn-twitter.dropdown-toggle
 {
     color: #fff;
     border-color: #178ce5;
     background-color: #2795e9;
     background-image: none;
-}
-.btn-twitter:active:hover,
-.btn-twitter:active:focus,
-.btn-twitter:active.focus,
-.btn-twitter.active:hover,
-.btn-twitter.active:focus,
-.btn-twitter.active.focus,
-.open > .btn-twitter.dropdown-toggle:hover,
-.open > .btn-twitter.dropdown-toggle:focus,
-.open > .btn-twitter.dropdown-toggle.focus
-{
-    color: #fff;
-    border-color: #1167a8;
-    background-color: #1583d7;
-}
-.btn-twitter.disabled:focus,
-.btn-twitter.disabled.focus,
-.btn-twitter:disabled:focus,
-.btn-twitter:disabled.focus
-{
-    border-color: #4ca7ed;
-    background-color: #55acee;
-}
-.btn-twitter.disabled:hover,
-.btn-twitter:disabled:hover
-{
-    border-color: #4ca7ed;
-    background-color: #55acee;
 }
 
 .btn-facebook
@@ -80,46 +56,22 @@
 .btn-facebook:focus,
 .btn-facebook.focus
 {
-    color: #fff;
-    border-color: #273b65;
-    background-color: #2d4373;
+    box-shadow: 0 0 0 2px rgba(56, 85, 145, .5);
+}
+.btn-facebook.disabled,
+.btn-facebook:disabled
+{
+    border-color: #385591;
+    background-color: #3b5998;
 }
 .btn-facebook:active,
 .btn-facebook.active,
-.open > .btn-facebook.dropdown-toggle
+.show > .btn-facebook.dropdown-toggle
 {
     color: #fff;
     border-color: #273b65;
     background-color: #2d4373;
     background-image: none;
-}
-.btn-facebook:active:hover,
-.btn-facebook:active:focus,
-.btn-facebook:active.focus,
-.btn-facebook.active:hover,
-.btn-facebook.active:focus,
-.btn-facebook.active.focus,
-.open > .btn-facebook.dropdown-toggle:hover,
-.open > .btn-facebook.dropdown-toggle:focus,
-.open > .btn-facebook.dropdown-toggle.focus
-{
-    color: #fff;
-    border-color: #141f35;
-    background-color: #23345a;
-}
-.btn-facebook.disabled:focus,
-.btn-facebook.disabled.focus,
-.btn-facebook:disabled:focus,
-.btn-facebook:disabled.focus
-{
-    border-color: #385591;
-    background-color: #3b5998;
-}
-.btn-facebook.disabled:hover,
-.btn-facebook:disabled:hover
-{
-    border-color: #385591;
-    background-color: #3b5998;
 }
 
 .btn-hatebu
@@ -137,46 +89,22 @@
 .btn-hatebu:focus,
 .btn-hatebu.focus
 {
-    color: #fff;
-    border-color: #10659d;
-    background-color: #1271b0;
+    box-shadow: 0 0 0 2px rgba(22, 137, 213, .5);
+}
+.btn-hatebu.disabled,
+.btn-hatebu:disabled
+{
+    border-color: #1689d5;
+    background-color: #178fde;
 }
 .btn-hatebu:active,
 .btn-hatebu.active,
-.open > .btn-hatebu.dropdown-toggle
+.show > .btn-hatebu.dropdown-toggle
 {
     color: #fff;
     border-color: #10659d;
     background-color: #1271b0;
     background-image: none;
-}
-.btn-hatebu:active:hover,
-.btn-hatebu:active:focus,
-.btn-hatebu:active.focus,
-.btn-hatebu.active:hover,
-.btn-hatebu.active:focus,
-.btn-hatebu.active.focus,
-.open > .btn-hatebu.dropdown-toggle:hover,
-.open > .btn-hatebu.dropdown-toggle:focus,
-.open > .btn-hatebu.dropdown-toggle.focus
-{
-    color: #fff;
-    border-color: #0a3f61;
-    background-color: #0f5c8f;
-}
-.btn-hatebu.disabled:focus,
-.btn-hatebu.disabled.focus,
-.btn-hatebu:disabled:focus,
-.btn-hatebu:disabled.focus
-{
-    border-color: #1689d5;
-    background-color: #178fde;
-}
-.btn-hatebu.disabled:hover,
-.btn-hatebu:disabled:hover
-{
-    border-color: #1689d5;
-    background-color: #178fde;
 }
 
 .fa.fa-hatebu::before
@@ -189,7 +117,7 @@
 
 body
 {
-    margin-top: 4.35rem;
+    margin-top: 3rem;
 }
 
 .social-button
@@ -448,4 +376,23 @@ footer .copyright
 {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 24px;
+}
+
+.alpha-bar
+{
+    font-weight: 700;
+
+    display: block;
+
+    padding: 1em;
+
+    text-align: center;
+
+    color: #fff;
+    background-color: #48181c;
+}
+
+.fork .btn
+{
+    width: 100%;
 }
