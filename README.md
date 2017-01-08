@@ -3,6 +3,7 @@
 [![Build Status by Travis CI](https://travis-ci.org/tamaina/Chen.svg?branch=master)](https://travis-ci.org/tamaina/Chen)
 [![Build status by AppVeyor](https://ci.appveyor.com/api/projects/status/b6rn5tseqbc0w3v7/branch/master?svg=true)](https://ci.appveyor.com/project/tamaina/chen/branch/master)
 [![devDependency Status](https://david-dm.org/tamaina/Chen/dev-status.svg)](https://david-dm.org/tamaina/Chen#info=devDependencies)
+![Bower Version](https://img.shields.io/bower/v/chen.svg)]
 [![The MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 [https://tamaina.github.io/Chen/](https://tamaina.github.io/Chen/)
