@@ -12720,3 +12720,8 @@ a:active img
 {
     margin: 0;
 }
+
+a
+{
+    height: 100%;
+}
