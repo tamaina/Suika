@@ -30,21 +30,8 @@
     <script src="http://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
-<style>
-    .loading{
-    background-color: #DDDDDD;
-    display:block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 999999;
-    }
-</style>
 </head>
 <body>
-<div class="loading"></div>
 <header>
 <a href="/Chen/v4-alpha.2/" class="alpha-bar"><span class="tag tag-danger">New!</span>最新版(v4系)はこちら(開発版・bootstrap v4.0.0-alpha.6準拠)</a>
   <div class="navbar navbar-default navbar-fixed-top">
@@ -455,10 +442,6 @@ $(document).ready(function(e) {
 		$('.last-version').text(last[0].tag_name.split('v')[1]);
 		$('.base-version').text(base[0].devDependencies.bootstrap);
 	});
-});
-
-$(window).on('load', function(){
-$(".loading").fadeOut("slow");
 });
 </script>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
