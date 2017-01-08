@@ -12725,3 +12725,8 @@ a
 {
     height: 100%;
 }
+
+.navbar-brand
+{
+    height: initial;
+}
