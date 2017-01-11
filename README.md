@@ -60,7 +60,7 @@ master/
 │   ├─ bootstrap.css
 │   └─ bootstrap.min.css
 ├─ fonts/
-│   ├─ (全24ファイル･省略)
+│   ├─ (全36ファイル･省略)
 └─ js/
      ├─ bootstrap.js
      └─ bootstrap.min.js
@@ -104,6 +104,8 @@ WebFontを利用したくない場合は、fork元の[Honoka](http://honokak.osa
 というか、これを使うとどう足掻いても3MBの読み込みが必須になるため、使うのは良くないと思います(じゃあなぜ公開したし)。
 
 [このあたりでWebFontを軽くする(見せる)方法を紹介してたりします。](https://tamaina.github.io/The-Japanese-Web-Fonts/#!HowToSet.md)
+
+補足:```.text-font-mpp```または```.text-font-mpc```の付与で"M+ P"と"M+ C"の切り替えができます。
 
 ## License
 

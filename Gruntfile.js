@@ -163,7 +163,7 @@ module.exports = function(grunt) {
 		connect: {
 			server: {
 				options: {
-					port: 8000,
+					port: 3000,
 					hostname: '*',
 					base: 'docs'
 				}
@@ -249,14 +249,14 @@ module.exports = function(grunt) {
 	// 最適化
 	grunt.registerTask('optimize', ['cssmin:minify']);
 
-	// 開発用
-	grunt.registerTask('server', ['bower:install', 'test', 'css', 'copy:dist', 'copy:docs', 'connect', 'watch']);
-
 	// ビルドタスク
 	grunt.registerTask('build', ['clean:build', 'bower:install', 'copy:bower', 'getTwbsConfig', 'test', 'css', 'optimize', 'replace:banner', 'copy:dist', 'copy:documents', 'copy:docs']);
 
+	// 開発用
+	grunt.registerTask('server', ['build', 'connect', 'watch']);
+
 	// 配布用パッケージ作成
-	grunt.registerTask('package', ['compress:main']);
+	grunt.registerTask('package', ['build', 'compress:main']);
 
 	grunt.registerTask('eatwarnings', function() {
 		grunt.warn = grunt.fail.warn = function(warning) {

@@ -29,7 +29,7 @@
 	font-weight: 700;
 }
 
-// WebFont mgenplus
+// WebFont mgenplus p
 @font-face {
 	font-family: "mgenplus-p-w";
 	src: url(#{$font-family-webfont-url}fonts/mgenplus-p-light.eot);
@@ -55,5 +55,34 @@
 	url(#{$font-family-webfont-url}fonts/mgenplus-p-bold.woff2) format("woff2"),
 	url(#{$font-family-webfont-url}fonts/mgenplus-p-bold.woff) format("woff"),
 	url(#{$font-family-webfont-url}fonts/mgenplus-p-bold.ttf) format("truetype");
+	font-weight: 700;
+}
+
+// WebFont mgenplus c
+@font-face {
+	font-family: "mgenplus-c-w";
+	src: url(#{$font-family-webfont-url}fonts/mgenplus-c-light.eot);
+	src: url(#{$font-family-webfont-url}fonts/mgenplus-c-light.eot?#iefix) format("embedded-opentype"),
+	url(#{$font-family-webfont-url}fonts/mgenplus-c-light.woff2) format("woff2"),
+	url(#{$font-family-webfont-url}fonts/mgenplus-c-light.woff) format("woff"),
+	url(#{$font-family-webfont-url}fonts/mgenplus-c-light.ttf) format("truetype");
+	font-weight: 200;
+}
+@font-face {
+	font-family: "mgenplus-c-w";
+	src: url(#{$font-family-webfont-url}fonts/mgenplus-c-regular.eot);
+	src: url(#{$font-family-webfont-url}fonts/mgenplus-c-regular.eot?#iefix) format("embedded-opentype"),
+	url(#{$font-family-webfont-url}fonts/mgenplus-c-regular.woff2) format("woff2"),
+	url(#{$font-family-webfont-url}fonts/mgenplus-c-regular.woff) format("woff"),
+	url(#{$font-family-webfont-url}fonts/mgenplus-c-regular.ttf) format("truetype");
+	font-weight: 400;
+}
+@font-face {
+	font-family: "mgenplus-c-w";
+	src: url(#{$font-family-webfont-url}fonts/mgenplus-c-bold.eot);
+	src: url(#{$font-family-webfont-url}fonts/mgenplus-c-bold.eot?#iefix) format("embedded-opentype"),
+	url(#{$font-family-webfont-url}fonts/mgenplus-c-bold.woff2) format("woff2"),
+	url(#{$font-family-webfont-url}fonts/mgenplus-c-bold.woff) format("woff"),
+	url(#{$font-family-webfont-url}fonts/mgenplus-c-bold.ttf) format("truetype");
 	font-weight: 700;
 }

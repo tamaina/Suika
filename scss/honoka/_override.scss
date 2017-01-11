@@ -1,18 +1,16 @@
 @charset "UTF-8";
 
 // animation
-a, a img, .btn, button, input, .custom-file-control, html [type="button"], [type="reset"], [type="submit"], .table-hover tbody tr {
-	transition-timing-function: ease;
-	transition-duration: 0.25s;
-	transition-property: all;
+a, a img, .btn, button, html [type="button"], [type="reset"], [type="submit"], .table-hover tbody tr {
+	transition-timing-function: ease !important;
+	transition-duration: 0.25s !important;
+	transition-property: all !important;
 }
-
 a:focus, a:hover {
 	img {
 		filter: brightness(85%) blur(1px);
 	}
 }
-
 a:active {
 	img {
 		filter: brightness(70%) blur(1px);
@@ -21,6 +19,7 @@ a:active {
 
 // alert & list group item fix
 .alert, .list-group-item {
+	text-align: justify !important;
 	p {
 		margin: 0;
 	}
@@ -30,7 +29,6 @@ a:active {
 .custom-file-control::before {
 	content: "選択";
 }
-
 .custom-file-control::after {
 	content: "ファイルの挿入";
 }
@@ -48,4 +46,17 @@ a {
 }
 .navbar-brand {
 	height: initial;
+}
+
+// font setting
+button, input, optgroup, select, textarea, .text-font-mpc {
+	font-family: $font-family-humanist-sans-serif !important;
+}
+.text-font-mpp {
+	font-family: $font-family-sans-serif !important;
+}
+
+// navbar fix
+.navbar-inverse .navbar-brand {
+	color: $gray-lightest !important;
 }

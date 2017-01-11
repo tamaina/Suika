@@ -66,7 +66,7 @@ $brand-hatena: #178fde;
 
 .jumbotron.special {
 	position: relative;
-	min-height: 530px;
+	min-height: 480px;
 	margin-bottom: 0;
 	overflow: hidden;
 	text-align: center;
@@ -85,7 +85,7 @@ $brand-hatena: #178fde;
 		background-repeat: no-repeat;
 	}
 	.outline {
-		margin-top: 180px;
+		margin-top: 100px;
 	}
 	h1,
 	.h1 {
@@ -99,6 +99,9 @@ $brand-hatena: #178fde;
 		margin: (1.5rem * 0.5) auto;
 		color: $gray-light;
 		text-shadow: #fff 0 1px 2px;
+	}
+	p {
+		font-size: 1.2rem;
 	}
 }
 
@@ -227,8 +230,8 @@ section.section {
 
 footer {
 	padding: 0.7rem * 4 0;
-	color: $gray-lighter;
-	background-color: $gray-dark;
+	color: $gray-lightest;
+	background-color: $gray-darkest;
 	.copyright {
 		padding-top: 0.7rem;
 		padding-bottom: 0.7rem;
