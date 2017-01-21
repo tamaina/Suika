@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Chen - ウェブフォントを使った日本語のためのBootstrapテーマ</title>
+
+  <link rel="shortcut icon" type="image/png" href="assets/img/brand.png">
+
+  <meta property="og:title" content="Chen - ウェブフォントを使ったBootstrapテーマ">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://chen.tmin.cf/">
+  <meta property="og:image" content="http://chen.tmin.cf/v4-alpha.4/assets/img/sample.png">
+  <meta property="og:description" content="Chenは日本語表示に最適化されたオリジナルBootstrapテーマです。">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@t_ma1n">
+  <meta name="twitter:creator" content="@t_ma1n">
+  <meta name="twitter:title" content="Chen - WebフォントベースのBootstrapテーマ">
+  <meta name="twitter:image" content="http://chen.tmin.cf/v4-alpha.4/img/sample.png">
+  <meta name="twitter:description" content="Chenは日本語表示に最適化されたオリジナルBootstrapテーマです。">
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/example.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+<header>
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="container">
+    <a href="./" class="navbar-brand">Chen <small>v4.0.0-alpha.4</small></a>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a href="./" class="nav-link">Top</a>
+          </li>
+          <li class="nav-item"><a href="./bootstrap.html" class="nav-link">Demo</a></li>
+          <li class="nav-item"><a href="//github.com/tamaina/Chen/releases" class="nav-link">Download</a></li>
+          <li class="nav-item"><a href="//github.com/windyakin/Honoka/wiki" class="nav-link">Honoka Wiki</a></li>
+        </ul>
+        <div class="form-inline ml-auto">
+            <a href="//twitter.com/intent/tweet?url=http://tamaina.github.io/Chen/&text=Chen%20%2d%20%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%82%82%e7%be%8e%e3%81%97%e3%81%8f%e8%a1%a8%e7%a4%ba%e3%81%a7%e3%81%8d%e3%82%8bBootstrap%e3%83%86%e3%83%bc%e3%83%9e" class="btn btn-twitter"><i class="fa fa-twitter fa-lg"></i> Tweet</a>
+            <a href="http://www.facebook.com/sharer.php?u=http://tamaina.github.io/Chen/" class="btn btn-facebook"><i class="fa fa-facebook fa-lg"></i> Share</a>
+            <a href="javascript:window.open('http://b.hatena.ne.jp/add?mode=confirm&is_bm=1&title='+escape(document.title)+'&url='+escape(location.href),%20'_blank',%20'width=520,height=600,resizable=1,scrollbars=1');undefined;" class="btn btn-hatebu"><i class="fa fa-hatebu fa-lg"></i> Bookmark</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+<a href="../" class="alpha-bar"><span class="badge badge-default">Stable</span>安定版(v3系)はこちら</a>
+</header>
+
+<div class="jumbotron special">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 outline">
+        <h1 class="display-4">Bootstrap Theme for Japanese.</h1>
+        <p style="font-weight: 200;">ウェブフォントを使った日本語のためのBootstrapテーマ</p>
+        <div class="download">
+          <a href="https://github.com/tamaina/Chen/releases" class="btn btn-warning btn-lg" target="_blank"><i class="fa fa-github-alt"></i> Download from GitHub</a>
+          <a href="https://github.com/tamaina/Chen/bootstrap.html" class="btn btn-primary btn-lg"><i class="fa fa-play"></i> Watch Demo</a>
+          <a href="http://honokak.osaka/" class="btn btn-success btn-lg" target="_blank"><i class="fa fa-rocket"></i> Visit "Honoka"</a>
+        </div>
+        <div class="basedon small">
+          Last version v<span class="last-version"></span> ・ Based on <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> v<span class="base-version"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<aside class="social">
+  <div class="social-button">
+    <ul>
+      <li><iframe src="//ghbtns.com/github-btn.html?user=tamaina&repo=Chen&type=star&count=true" frameborder="0" scrolling="0" width="90px" height="20px"></iframe></li>
+      <li><a href="//twitter.com/share" class="twitter-share-button" data-lang="ja" data-dnt="true">ツイート</a></li>
+      <li><div class="fb-like" data-href="http://tamaina.github.io/Chen/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></li>
+      <li><a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;"></a></li>
+    </ul>
+  </div>
+</aside>
+
+<section class="section section-default point">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 subtitle">
+        <h2>ChenはオリジナルBootstrapテーマです</h2>
+        <p>ChenはBootstrapテーマの一つですが、以下の特徴を持っています。</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 point-box">
+        <div class="point-circle start">
+          <i class="fa fa-check"></i>
+        </div>
+        <div class="point-description">
+          <h4>Easy to Start</h4>
+          <p>ChenはBootstrapを元に製作されているため、非常に高い互換性を持っています。マークアップに関する規約はほとんど変わりません。</p>
+        </div>
+      </div>
+      <div class="col-md-3 point-box">
+        <div class="point-circle replace">
+          <i class="fa fa-refresh"></i>
+        </div>
+        <div class="point-description">
+          <h4>Replace Bootstrap</h4>
+          <p>既にBootstrapを使って作成したウェブサイトがある場合は、CSSを置き換えるだけで簡単にChenを利用できます。</p>
+        </div>
+      </div>
+      <div class="col-md-3 point-box">
+        <div class="point-circle compass">
+          <i class="fa fa-github-alt"></i>
+        </div>
+        <div class="point-description">
+          <h4>Open Source</h4>
+          <p>作成に使用したSASSファイルは全て公開されています。変数の定義ファイルを変更することで自分好みの設定に変更することも可能です。</p>
+        </div>
+      </div>
+      <div class="col-md-3 point-box">
+        <div class="point-circle japanese">
+          <span class="icon-jp"></span>
+        </div>
+        <div class="point-description">
+          <h4>Japanese WebFont</h4>
+          <p>日本語表示の美しさを追求し、fork元の"Honoka"による調整に加え、日本語ウェブフォントとして<a href="http://jikasei.me/font/genshin/" target="_blank" style="font-weight:700;">源真ゴシック</a>をJIS第2水準漢字までにサブセット化した上で使用しています。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-inverse japanese-font">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 subtitle">
+        <h2>Chenは日本語を美しく表示します</h2>
+        <p>英数字部分には「M+ p」を、日本語部分には「Noto Sans CJK JP ･ 源ノ角ゴシック ･ Source Han Sans」を使用しています。ウェイト(太さ)は <span style="font-weight: 200;">light （ライト）</span> / <span style="font-weight: 400;">regular（レギュラー）</span> / <span style="font-weight: 700;">bold（ボールド）</span> の3種類のみ使用しています。</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card bootstrap-default text-justify">
+					<div class="card-block">
+          <h3>従来の日本語表示</h3>
+            <p>
+              愛くるしい笑顔、キュートな寝顔、ぷにぷにほっぺたなんてもう食べちゃいたいくらいのぷにぷに具合である。この前なんか鼻たぶをくすぐったら「くしゅん」っていうとっても愛らしいくしゃみをして、それからちょっぴりすねてたけど、その表情がこれまたすごく可愛い。怒った顔もめちゃくちゃ可愛いし（怖いけど）、泣いた顔もたまらなく可愛い（泣かせたくはないけど）。もはや「立てば可愛く、座れば萌え萌え、歩く姿はもう最高」としか言いようがないほどの可愛さ破壊力世界最強なのである。ちなみに橙のかぶっている帽子は私の手作り（えぇ、かわいい橙が使ってくれるのなら、夜なべでも何でもするでしょうとも）なのだが、やはり似合っている。あれは橙に似合うべくして作られた帽子であり、むしろ橙は何を着たって似合うというのがもはや世界の常識となっているのである。あぁ、橙かわいいよ橙……
+              <br><small>--八雲藍 2016年11月10日 (木) 19:10 (JST)</small></p>
+              <p>「ねぇ。目が怖いよ……」
+              <br><b>〜 藍しゃまの溺愛 について、橙</b>
+              <br><small>――引用元 <a href="http://ja.uncyclopedia.info/wiki/%E6%A9%99_(%E6%9D%B1%E6%96%B9Project)" target="_blank">アンサイクロペディア</a></small>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card text-justify">
+					<div class="card-block">
+            <h3>Chenの日本語表示</h3>
+            <p>
+              愛くるしい笑顔、キュートな寝顔、ぷにぷにほっぺたなんてもう食べちゃいたいくらいのぷにぷに具合である。この前なんか鼻たぶをくすぐったら「くしゅん」っていうとっても愛らしいくしゃみをして、それからちょっぴりすねてたけど、その表情がこれまたすごく可愛い。怒った顔もめちゃくちゃ可愛いし（怖いけど）、泣いた顔もたまらなく可愛い（泣かせたくはないけど）。もはや「立てば可愛く、座れば萌え萌え、歩く姿はもう最高」としか言いようがないほどの可愛さ破壊力世界最強なのである。ちなみに橙のかぶっている帽子は私の手作り（えぇ、かわいい橙が使ってくれるのなら、夜なべでも何でもするでしょうとも）なのだが、やはり似合っている。あれは橙に似合うべくして作られた帽子であり、むしろ橙は何を着たって似合うというのがもはや世界の常識となっているのである。あぁ、橙かわいいよ橙……
+              <br><small>--八雲藍 2016年11月10日 (木) 19:10 (JST)</small></p>
+              <p>「ねぇ。目が怖いよ……」
+              <br><b>〜 藍しゃまの溺愛 について、橙</b>
+              <br><small>――引用元 <a href="http://ja.uncyclopedia.info/wiki/%E6%A9%99_(%E6%9D%B1%E6%96%B9Project)" target="_blank">アンサイクロペディア</a></small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-default getting-started">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 subtitle">
+        <h2>さあ、はじめましょう。</h2>
+        <p>導入は簡単です</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="form-group">
+          <a href="http://github.com/tamaina/Chen/releases" class="btn btn-primary btn-lg" target="_blank"><i class="fa fa-github-alt"></i> Download from GitHub</a>
+          <p class="help-block">Last version v<span class="last-version"></span> ・ <a href="http://github.com/tamaina/Chen/blob/master/LICENSE">MIT License</a></p>
+        </div>
+        <p>使い方やファイルの説明など、詳しくは <a href="http://github.com/tamaina/Chen#readme">README</a> または <a href="http://github.com/windyakin/Honoka/wiki" target="_blank">HonokaのWiki</a> をご確認ください</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-inverse available-bower">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 subtitle">
+        <h2>Available on CDN</h2>
+        <p>ChenはCDNから利用できます</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12" style="display: table-cell; background-color: #eee; color: #111; overflow-x: scroll; text-align: left; white-space: nowrap;">
+<code class="language-html" data-lang="html">&lt;link href="https://cdn.tmin.cf/chen/4.0.0-alpha.4/css/bootstrap.min.css" rel="stylesheet"&gt;<br> &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js">&lt;/script&gt;<br> &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js">&lt;/script&gt;<br> &lt;script src="https://cdn.tmin.cf/chen/4.0.0-alpha.4/js/bootstrap.min.js">&lt;/script&gt;<br></code>
+      </div>
+      <div class="col-12 text-center">
+        <p class="help-block">v3.9.9より対応</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-default used-by">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 subtitle">
+        <h2>Honokaを使って作られたウェブサイト</h2>
+        <p>HonokaやそのForkテーマで構築されたウェブサイトを紹介します</p>
+      </div>
+    </div>
+    <div class="row row-xs-top">
+      <div class="col-md-4 col-lg-3 mb-2">
+        <div class="card">
+          <a href="//proconist.net/" target="_blank"><img src="http://cdn.honokak.osaka/assets/img/proconist.png" class="card-img-top img-fluid"></a>
+          <div class="card-block text-center">
+            <h5>Proconist.net</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-3 mb-2">
+        <div class="card">
+          <a href="http://sugoi.windyakin.net/" target="_blank"><img src="http://cdn.honokak.osaka/assets/img/sugoi.png" class="card-img-top img-fluid"></a>
+          <div class="card-block text-center">
+            <h5>この高専がすごい！</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-3 mb-2">
+        <div class="card">
+          <a href="http://yashihei.net/" target="_blank"><img src="http://cdn.honokak.osaka/assets/img/yashihei.png" class="card-img-top img-fluid"></a>
+          <div class="card-block text-center">
+            <h5>yashihei.net</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-3 mb-2">
+        <div class="card">
+          <a href="http://sysken.org/advent2015/" target="_blank"><img src="http://cdn.honokak.osaka/assets/img/sysken.png" class="card-img-top img-fluid"></a>
+          <div class="card-block text-center">
+            <h5>SYSKEN Advent Calendar</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-3 mb-2">
+        <div class="card">
+          <a href="http://timers-inc.com/" target="_blank"><img src="http://cdn.honokak.osaka/assets/img/timers-inc.png" class="card-img-top img-fluid"></a>
+          <div class="card-block text-center">
+            <h5>TIMERS Inc</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-3 mb-2">
+        <div class="card">
+          <a href="http://ost.procon-online.net/" target="_blank"><img src="http://cdn.honokak.osaka/assets/img/ost.png" class="card-img-top img-fluid"></a>
+          <div class="card-block text-center">
+            <h5>PROCON O.S.T. Project</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-inverse fork">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 subtitle">
+        <h2>HonokaのForkテーマ</h2>
+        <p>Honokaをベースにして作られた他のBootstrapテーマ</p>
+      </div>
+    </div>
+    <div class="row row-xs-top">
+    
+      <div class="col-md-6 col-lg-4 mb-2">
+        <div class="card card-inverse card-warning">
+          <a href="http://honokak.osaka/" target="_blank"><img src="http://cdn.honokak.osaka/assets/img/honoka.png" class="card-img-top img-fluid"></a>
+          <div class="card-block text-center">
+            <h4>Honoka</h4>
+            <p>空前絶後の本家本元。ウェブフォントじゃなくていいって方はこちらへ。</p>
+            <div>
+              <a href="http://honokak.osaka/" class="btn btn-primary mb-1" target="_blank">Honokaの特設ページ <i class="fa fa-external-link"></i></a>
+              <a href="https://github.com/windyakin/Honoka" class="btn btn-secondary" target="_blank">Honoka on GitHub <i class="fa fa-github-alt"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-2">
+        <div class="card">
+          <a href="http://nkmr6194.github.io/Umi/" target="_blank"><img src="http://cdn.honokak.osaka/assets/img/umi.png" class="card-img-top img-fluid"></a>
+          <div class="card-block text-center">
+            <h4>Umi</h4>
+            <p>"Umi"は"Honoka"に<a href="//bootswatch.com/flatly/" target="_blank">Bootswatch Flatly</a>の配色を適用したテーマです。</p>
+            <div>
+              <a href="http://nkmr6194.github.io/Umi/" class="btn btn-primary mb-1" target="_blank">Umiの特設ページ <i class="fa fa-external-link"></i></a>
+              <a href="https://github.com/NKMR6194/Umi" class="btn btn-secondary" target="_blank">Umi on GitHub <i class="fa fa-github-alt"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-2">
+        <div class="card">
+          <a href="http://nico.kubosho.com/" target="_blank"><img src="http://cdn.honokak.osaka/assets/img/nico.png" class="card-img-top img-fluid"></a>
+          <div class="card-block text-center">
+            <h4>Nico</h4>
+            <p>"Nico"は"Honoka"にピンク系の配色を適用したテーマです。</p>
+            <div>
+              <a href="http://nico.kubosho.com/" class="btn btn-primary mb-1" target="_blank">Nicoの特設ページ <i class="fa fa-external-link"></i></a>
+              <a href="https://github.com/kubosho/Nico" class="btn btn-secondary" target="_blank">Nico on GitHub <i class="fa fa-github-alt"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-2">
+        <div class="card">
+          <a href="http://rinhoshizo.la/" target="_blank"><img src="http://cdn.honokak.osaka/assets/img/rin.png" class="card-img-top img-fluid"></a>
+          <div class="card-block text-center">
+            <h4>Rin</h4>
+            <p>"Rin"は"Honoka"を元にしたMaterial Design風のテーマです。</p>
+            <div>
+              <a href="http://rinhoshizo.la/" class="btn btn-primary mb-1" target="_blank">Rinの特設ページ <i class="fa fa-external-link"></i></a>
+              <a href="https://github.com/raryosu/Rin" class="btn btn-secondary" target="_blank">Rin on GitHub <i class="fa fa-github-alt"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-2">
+        <div class="card">
+          <a href="http://sairoutine.github.io/Frandre/" target="_blank"><img src="http://sairoutine.github.io/Frandre/assets/img/sample.png" class="card-img-top img-fluid"></a>
+          <div class="card-block text-center">
+            <h4>Frandre</h4>
+            <p>"Frandre"は"Honoka"を元にしたUbuntu風のテーマです。</p>
+            <div>
+              <a href="http://sairoutine.github.io/Frandre/" class="btn btn-primary mb-1" target="_blank">Frandreの特設ページ <i class="fa fa-external-link"></i></a>
+              <a href="https://github.com/sairoutine/Frandre" class="btn btn-secondary" target="_blank">Frandre on GitHub <i class="fa fa-github-alt"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-2">
+        <div class="card">
+          <a href="https://sairoutine.github.io/Alice/" target="_blank"><img src="https://sairoutine.github.io/Alice/assets/img/sample.png" class="card-img-top img-fluid"></a>
+          <div class="card-block text-center">
+            <h4>Alice</h4>
+            <p>"Alice"は"Honoka"に<a href="//bootswatch.com/journal/" target="_blank">Bootswatch Journal</a>の配色を適用したテーマです。</p>
+            <div>
+              <a href="https://sairoutine.github.io/Alice/" class="btn btn-primary mb-1" target="_blank">Aliceの特設ページ <i class="fa fa-external-link"></i></a>
+              <a href="https://github.com/sairoutine/Alice/" class="btn btn-secondary" target="_blank">Alice on GitHub <i class="fa fa-github-alt"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-2">
+        <div class="card">
+          <a href="http://sairoutine.github.io/Kochiya/" target="_blank"><img src="https://sairoutine.github.io/Kochiya/assets/img/sample.png" class="card-img-top img-fluid"></a>
+          <div class="card-block text-center">
+            <h4>Kochiya</h4>
+            <p>"Kochiya"は"Honoka"に<a href="//bootswatch.com/yeti/" target="_blank">Bootswatch Yeti</a>の配色を適用したテーマです。</p>
+            <div>
+              <a href="http://sairoutine.github.io/Kochiya/" class="btn btn-primary mb-1" target="_blank">Kochiyaの特設ページ <i class="fa fa-external-link"></i></a>
+              <a href="https://github.com/sairoutine/Kochiya/" class="btn btn-secondary" target="_blank">Kochiya on GitHub <i class="fa fa-github-alt"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-2">
+        <div class="card">
+          <a href="http://chen.tmin.cf/v4-alpha.4/" target="_blank"><img src="https://chen.tmin.cf/v4-alpha.4/assets/img/sample.png" class="card-img-top img-fluid"></a>
+          <div class="card-block text-center">
+            <h4>Chen</h4>
+            <p>"Chen"は"Honoka"のフォントを源真ゴシックに変更したテーマです。</p>
+            <div>
+              <a href="http://chen.tmin.cf/v4-alpha.4/" class="btn btn-primary mb-1" target="_blank">Chenの特設ページ <i class="fa fa-external-link"></i></a>
+              <a href="https://github.com/tamaina/Chen/" class="btn btn-secondary" target="_blank">Chen on GitHub <i class="fa fa-github-alt"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="section section-default featured">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 subtitle">
+        <h2>Honoka has been featured on</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        <ul class="list-inline featured-list">
+          <li><a href="http://www.moongift.jp/2015/06/honoka-%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%82%82%E7%B6%BA%E9%BA%97%E3%81%AB%E8%A1%A8%E7%A4%BA%E3%81%A7%E3%81%8D%E3%82%8Bbootstrap%E3%83%86%E3%83%BC%E3%83%9E/"><img src="http://cdn.honokak.osaka/assets/img/moongift.png" alt="MOONGIFT"></a></li>
+          <li><a href="http://coliss.com/articles/build-websites/operation/work/bootstrap-theme-honoka.html"><img src="http://cdn.honokak.osaka/assets/img/coliss.png" alt="コリス"></a></li>
+          <li><a href="http://stocker.jp/diary/web-news-may2015/"><img src="http://cdn.honokak.osaka/assets/img/stockerjp.png" alt="Stocker.jp / diary"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="small">
+  <div class="social-button">
+    <ul>
+      <li><iframe src="//ghbtns.com/github-btn.html?user=tamaina&repo=Chen&type=star&count=true" frameborder="0" scrolling="0" width="90px" height="20px"></iframe></li>
+      <li><a href="//twitter.com/share" class="twitter-share-button" data-lang="ja" data-dnt="true">ツイート</a></li>
+      <li><div class="fb-like" data-href="http://tamaina.github.io/Chen/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></li>
+      <li><a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;"></a></li>
+    </ul>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center copyright">
+        &copy; 2016 Chen
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.5/clipboard.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+new Clipboard('.btn');
+$(document).ready(function(e) {
+	$.when(
+		$.ajax({
+			url: '//api.github.com/repos/tamaina/Chen/releases/latest',
+			type: 'get',
+			dataType: 'json'
+		}),
+		$.ajax({
+			url: '//cdn.rawgit.com/tamaina/Chen/master/bower.json',
+			type: 'get',
+			dataType: 'json'
+		})
+	)
+	.done(function(last, base) {
+		$('.last-version').text(last[0].tag_name.split('v')[1]);
+		$('.base-version').text(base[0].devDependencies.bootstrap);
+	});
+});
+</script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = "http://connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=1216117028459212&version=v2.3";fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
+<script type="text/javascript" src="//b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+</body>
+</html>
