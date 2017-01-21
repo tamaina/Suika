@@ -11,15 +11,15 @@
 
   <meta property="og:title" content="Chen - ウェブフォントを使ったBootstrapテーマ">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://tamaina.github.io/Chen/">
-  <meta property="og:image" content="http://tamaina.github.io/Chen/assets/img/sample.1.png">
+  <meta property="og:url" content="http://chen.tmin.cf/">
+  <meta property="og:image" content="http://chen.tmin.cf/v4-alpha.4/assets/img/sample.png">
   <meta property="og:description" content="Chenは日本語表示に最適化されたオリジナルBootstrapテーマです。">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@t_ma1n">
   <meta name="twitter:creator" content="@t_ma1n">
   <meta name="twitter:title" content="Chen - WebフォントベースのBootstrapテーマ">
-  <meta name="twitter:image" content="http://tamaina.github.io/Chen/assets/img/sample.1.png">
+  <meta name="twitter:image" content="http://chen.tmin.cf/v4-alpha.4/img/sample.png">
   <meta name="twitter:description" content="Chenは日本語表示に最適化されたオリジナルBootstrapテーマです。">
 
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -33,7 +33,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="container">
-    <a href="./" class="navbar-brand">Chen <small>v4.0.0-alpha.3</small></a>
+    <a href="./" class="navbar-brand">Chen <small>v4.0.0-alpha.4</small></a>
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
@@ -179,7 +179,7 @@
     <div class="row">
       <div class="col-12 subtitle">
         <h2>さあ、はじめましょう。</h2>
-        <p>導入はとっても簡単です</p>
+        <p>導入は簡単です</p>
       </div>
     </div>
     <div class="row">
@@ -195,22 +195,18 @@
 </section>
 
 <section class="section section-inverse available-bower">
-  <div class="bower-logo"></div>
   <div class="container">
     <div class="row">
       <div class="col-12 subtitle">
-        <h2>Available on the Bower</h2>
-        <p>Chenは<a href="http://bower.io/" target="_blank">Bower</a>から利用できます</p>
+        <h2>Available on CDN</h2>
+        <p>ChenはCDNから利用できます</p>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-8 offset-md-2 col-12 text-center">
-        <div class="input-group input-group-lg">
-          <input type="text" class="form-control" id="command" value="bower install --save-dev chen#v4.0.0-alpha.2" onclick="this.select();" readonly="readonly">
-          <span class="input-group-btn">
-            <button type="button" class="btn btn-secondary" data-clipboard-target="#command"><i class="fa fa-clipboard"></i></button>
-          </span>
-        </div>
+      <div class="col-12" style="display: table-cell; background-color: #eee; color: #111; overflow-x: scroll; text-align: left; white-space: nowrap;">
+<code class="language-html" data-lang="html">&lt;link href="https://cdn.tmin.cf/chen/4.0.0-alpha.4/css/bootstrap.min.css" rel="stylesheet"&gt;<br> &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js">&lt;/script&gt;<br> &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js">&lt;/script&gt;<br> &lt;script src="https://cdn.tmin.cf/chen/4.0.0-alpha.4/js/bootstrap.min.js">&lt;/script&gt;<br></code>
+      </div>
+      <div class="col-12 text-center">
         <p class="help-block">v3.9.9より対応</p>
       </div>
     </div>
@@ -381,12 +377,12 @@
       </div>
       <div class="col-md-6 col-lg-4 mb-2">
         <div class="card">
-          <a href="http://tamaina.github.io/Chen/v4-alpha.2" target="_blank"><img src="https://tamaina.github.io/Chen/v4-alpha.2/assets/img/sample.png" class="card-img-top img-fluid"></a>
+          <a href="http://chen.tmin.cf/v4-alpha.4/" target="_blank"><img src="https://chen.tmin.cf/v4-alpha.4/assets/img/sample.png" class="card-img-top img-fluid"></a>
           <div class="card-block text-center">
             <h4>Chen</h4>
             <p>"Chen"は"Honoka"のフォントを源真ゴシックに変更したテーマです。</p>
             <div>
-              <a href="http://tamaina.github.io/Chen/v4-alpha.2" class="btn btn-primary mb-1" target="_blank">Chenの特設ページ <i class="fa fa-external-link"></i></a>
+              <a href="http://chen.tmin.cf/v4-alpha.4/" class="btn btn-primary mb-1" target="_blank">Chenの特設ページ <i class="fa fa-external-link"></i></a>
               <a href="https://github.com/tamaina/Chen/" class="btn btn-secondary" target="_blank">Chen on GitHub <i class="fa fa-github-alt"></i></a>
             </div>
           </div>
@@ -457,7 +453,6 @@ $(document).ready(function(e) {
 		$('.base-version').text(base[0].devDependencies.bootstrap);
 	});
 });
-
 </script>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 <div id="fb-root"></div>

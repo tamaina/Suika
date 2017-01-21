@@ -1,11 +1,11 @@
 {
   "name": "chen",
-  "version": "4.0.0-alpha.3",
+  "version": "4.0.0-alpha.4",
   "description": "Chen is one of the Bootstrap original theme for Japanese.",
   "author": "tamaina",
-  "website": "https://tamaina.github.io/Chen",
+  "website": "https://chen.tmin.cf/",
   "license": "MIT",
-  "main": "Gruntfile.js",
+  "main": "dist/js/bootstrap.min.css",
   "scripts": {
     "test": "grunt test",
     "start": "grunt build",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tamaina/chen.git"
+    "url": "https://github.com/tamaina/Chen.git"
   },
   "devDependencies": {
     "autoprefixer": "^6.5.3",

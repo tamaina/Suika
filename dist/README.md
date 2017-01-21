@@ -2,12 +2,12 @@
 
 [![Build Status by Travis CI](https://travis-ci.org/tamaina/Chen.svg?branch=master)](https://travis-ci.org/tamaina/Chen)
 [![Build status by AppVeyor](https://ci.appveyor.com/api/projects/status/b6rn5tseqbc0w3v7/branch/master?svg=true)](https://ci.appveyor.com/project/tamaina/chen/branch/master)
-[![devDependency Status](https://david-dm.org/tamaina/Chen/dev-status.svg)](https://david-dm.org/tamaina/Chen#info=devDependencies)
+[![devDependency Status](https://david-dm.org/tamaina/Chen/v4-dev/dev-status.svg)](https://david-dm.org/tamaina/Chen/v4-dev?type=dev)
 [![The MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-[https://tamaina.github.io/Chen/](https://tamaina.github.io/Chen/)
+[https://chen.tmin.cf/v4-alpha.4/](https://chen.tmin.cf/v4-alpha.4/)
 
-[![Chen](docs/assets/img/sample.png)](https://tamaina.github.io/Chen/)
+[![Chen](docs/assets/img/sample.png)](https://chen.tmin.cf/v4-alpha.4/)
 
 "Chen" は日本語も美しく表示できるBootstrapテーマです。
 
@@ -23,9 +23,52 @@
 
 ## Live Demo
 
- * [日本語デモ: https://tamaina.github.io/Chen/bootstrap.html](https://tamaina.github.io/Chen/bootstrap.html) 
+ * [日本語デモ: https://chen.tmin.cf/v4-alpha.4/bootstrap.html](https://tamaina.github.io/Chen/bootstrap.html) 
 
 ## Getting Started
+
+
+### Basic Template
+
+Bootstrapをつかってウェブページを作成する際に基本となるHTML部分は以下のようになります。CDNを指定してありますから、すぐに利用することが出来ます。
+
+**また、v3系をお使いの場合、必ずご確認ください。**
+
+```html
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- 上記のmetaタグ群は必須ですので、常にhtmlの最初に書かれるようにしてください。 -->
+    <title>Bootstrap 雛形</title>
+
+    <!-- BootstrapのCSS -->
+    <link href="https://cdn.tmin.cf/chen/4.0.0-alpha.4/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+
+    <!-- bodyの一番最後 -->
+    <!-- 「①jquery(v3系)」「②Tether」「③bootstrap(.min).js」の順で読み込みます。 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://cdn.tmin.cf/chen/4.0.0-alpha.4/js/bootstrap.min.js"></script>
+  </body>
+</html>
+```
+
+### CDN
+
+ChenではCloudFlareを利用したCDNを利用できます。
+
+```html
+<link href="https://cdn.tmin.cf/chen/4.0.0-alpha.4/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="https://cdn.tmin.cf/chen/4.0.0-alpha.4/js/bootstrap.min.js"></script>
+```
 
 ### Download
 
@@ -38,7 +81,7 @@
 以下のコマンドを実行してください。
 
 ```
-bower install --save-dev Chen#v4.0.0-alpha.1
+bower install --save-dev Chen#v4.0.0-alpha.4
 ```
 
 ## Usage
@@ -66,37 +109,6 @@ master/
      └─ bootstrap.min.js
 ```
 
-### Basic Template
-
-Bootstrapをつかってウェブページを作成する際に基本となるHTML部分は以下のようになります。CSSやJavaScriptのファイルパスは環境に合わせて変更する必要があります。
-
-**v3系をお使いの場合、必ずご確認ください。**
-
-```html
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- 上記のmetaタグ群は必須ですので、常にhtmlの最初に書かれるようにしてください。 -->
-    <title>Bootstrap 雛形</title>
-
-    <!-- BootstrapのCSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-
-    <!-- bodyの一番最後 -->
-    <!-- 「①jquery(v3系)」「②Tether」「③bootstrap(.min).js」の順で読み込みます。 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
-</html>
-```
-
 ### Do you hate WebFont?
 
 WebFontを利用したくない場合は、fork元の[Honoka](http://honokak.osaka)をご利用ください。
@@ -111,10 +123,12 @@ WebFontを利用したくない場合は、fork元の[Honoka](http://honokak.osa
 
 [MIT License](LICENSE)
 
+但し源真ゴシック(GenShinGothicから始まるファイル群)は[SIL Open Font License 1.1](https://ja.osdn.net/projects/opensource/wiki/SIL_Open_Font_License_1.1)
+
 ## Author
 
- * windyakin ([windyakin.net](http://windyakin.net/))
+ * windyakin ([http://windyakin.net](http://windyakin.net/))
 
 ## Editor
 
- * tamaina ([tamaina.github.io](https://tamaina.github.io/))
+ * tamaina ([http://tmin.cf](https://tamaina.github.io/))

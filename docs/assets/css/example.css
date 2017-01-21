@@ -13,6 +13,7 @@
     color: #fff;
     border-color: #4ca7ed;
     background-color: #55acee;
+    box-shadow: none;
 }
 .btn-twitter:hover
 {
@@ -23,7 +24,7 @@
 .btn-twitter:focus,
 .btn-twitter.focus
 {
-    box-shadow: 0 0 0 2px rgba(76, 167, 237, .5);
+    box-shadow: none, 0 0 0 2px rgba(76, 167, 237, .5);
 }
 .btn-twitter.disabled,
 .btn-twitter:disabled
@@ -39,6 +40,7 @@
     border-color: #178ce5;
     background-color: #2795e9;
     background-image: none;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
 }
 
 .btn-facebook
@@ -46,6 +48,7 @@
     color: #fff;
     border-color: #385591;
     background-color: #3b5998;
+    box-shadow: none;
 }
 .btn-facebook:hover
 {
@@ -56,7 +59,7 @@
 .btn-facebook:focus,
 .btn-facebook.focus
 {
-    box-shadow: 0 0 0 2px rgba(56, 85, 145, .5);
+    box-shadow: none, 0 0 0 2px rgba(56, 85, 145, .5);
 }
 .btn-facebook.disabled,
 .btn-facebook:disabled
@@ -72,6 +75,7 @@
     border-color: #273b65;
     background-color: #2d4373;
     background-image: none;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
 }
 
 .btn-hatebu
@@ -79,6 +83,7 @@
     color: #fff;
     border-color: #1689d5;
     background-color: #178fde;
+    box-shadow: none;
 }
 .btn-hatebu:hover
 {
@@ -89,7 +94,7 @@
 .btn-hatebu:focus,
 .btn-hatebu.focus
 {
-    box-shadow: 0 0 0 2px rgba(22, 137, 213, .5);
+    box-shadow: none, 0 0 0 2px rgba(22, 137, 213, .5);
 }
 .btn-hatebu.disabled,
 .btn-hatebu:disabled
@@ -105,6 +110,7 @@
     border-color: #10659d;
     background-color: #1271b0;
     background-image: none;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
 }
 
 .fa.fa-hatebu::before

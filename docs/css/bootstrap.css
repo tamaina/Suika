@@ -1,8 +1,8 @@
 @charset 'UTF-8';
 /*!
- * chen v4.0.0-alpha.3
- * Website https://tamaina.github.io/Chen
- * Copyright 2015 tamaina
+ * chen v4.0.0-alpha.4
+ * Website https://chen.tmin.cf/
+ * Copyright 2016-2017 tamaina
  * The MIT License
  * Based on Honoka (http://honokak.osaka/) by windyakin
  */
@@ -509,10 +509,10 @@ html
 
 body
 {
-    font-family: 'mgenplus-c-w', -apple-system, BlinkMacSystemFont, 'GenShinGothic-w', 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
+    font-family: 'mgenplus-c-w', -apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'GenShinGothic-w', 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 1.6;
 
     color: #212121;
     background-color: #fff;
@@ -768,7 +768,7 @@ h6,
 .h5,
 .h6
 {
-    font-family: 'mgenplus-p-w', -apple-system, BlinkMacSystemFont, 'GenShinGothic-w', 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
+    font-family: 'mgenplus-p-w', -apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'GenShinGothic-w', 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
     font-weight: 700;
     line-height: 1.1;
 
@@ -963,6 +963,8 @@ mark,
     border: 1px solid #ddd;
     border-radius: .25rem;
     background-color: #fff;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 
 .figure
@@ -1019,6 +1021,8 @@ kbd
     color: #fff;
     border-radius: .2rem;
     background-color: #757575;
+    -webkit-box-shadow: inset 0 -.1rem 0 rgba(0, 0, 0, .25);
+            box-shadow: inset 0 -.1rem 0 rgba(0, 0, 0, .25);
 }
 kbd kbd
 {
@@ -1026,6 +1030,9 @@ kbd kbd
     font-weight: 700;
 
     padding: 0;
+
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 
 pre
@@ -3460,11 +3467,11 @@ pre code
     width: 100%;
     padding: .5rem .75rem;
 
-    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-         -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-            transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-            transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-            transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -webkit-transition: border-color ease .25s, -webkit-box-shadow ease .25s;
+         -o-transition: border-color ease .25s, box-shadow ease .25s;
+            transition: border-color ease .25s, -webkit-box-shadow ease .25s;
+            transition: border-color ease .25s, box-shadow ease .25s;
+            transition: border-color ease .25s, box-shadow ease .25s, -webkit-box-shadow ease .25s;
 
     color: #3a3a3a;
     border: 1px solid #ccc;
@@ -3473,6 +3480,8 @@ pre code
     background-image: none;
     -webkit-background-clip: padding-box;
             background-clip: padding-box;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 .form-control::-ms-expand
 {
@@ -3485,6 +3494,8 @@ pre code
     border-color: #6ab8f7;
     outline: none;
     background-color: #fff;
+    -webkit-box-shadow: 0 0 6px rgba(106, 184, 247, .6);
+            box-shadow: 0 0 6px rgba(106, 184, 247, .6);
 }
 .form-control::-webkit-input-placeholder
 {
@@ -3606,7 +3617,7 @@ select.form-control-sm:not([size]):not([multiple]),
 .input-group-sm > select.input-group-addon:not([size]):not([multiple]),
 .input-group-sm > .input-group-btn > select.btn:not([size]):not([multiple])
 {
-    height: 1.8125rem;
+    height: 1.85625rem;
 }
 
 .form-control-lg,
@@ -3626,7 +3637,7 @@ select.form-control-lg:not([size]):not([multiple]),
 .input-group-lg > select.input-group-addon:not([size]):not([multiple]),
 .input-group-lg > .input-group-btn > select.btn:not([size]):not([multiple])
 {
-    height: 3.16667rem;
+    height: 3.5rem;
 }
 
 .form-group
@@ -3718,6 +3729,11 @@ select.form-control-lg:not([size]):not([multiple]),
 {
     border-color: #4caf50;
 }
+.has-success .form-control:focus
+{
+    -webkit-box-shadow: none, 0 0 6px #92cf94;
+            box-shadow: none, 0 0 6px #92cf94;
+}
 .has-success .input-group-addon
 {
     color: #4caf50;
@@ -3741,6 +3757,11 @@ select.form-control-lg:not([size]):not([multiple]),
 {
     border-color: #ff9800;
 }
+.has-warning .form-control:focus
+{
+    -webkit-box-shadow: none, 0 0 6px #ffc166;
+            box-shadow: none, 0 0 6px #ffc166;
+}
 .has-warning .input-group-addon
 {
     color: #ff9800;
@@ -3763,6 +3784,11 @@ select.form-control-lg:not([size]):not([multiple]),
 .has-danger .form-control
 {
     border-color: #f44336;
+}
+.has-danger .form-control:focus
+{
+    -webkit-box-shadow: none, 0 0 6px #f99d97;
+            box-shadow: none, 0 0 6px #f99d97;
 }
 .has-danger .input-group-addon
 {
@@ -3956,8 +3982,8 @@ select.form-control-lg:not([size]):not([multiple]),
 .btn.focus
 {
     outline: 0;
-    -webkit-box-shadow: 0 0 0 2px rgba(33, 150, 243, .25);
-            box-shadow: 0 0 0 2px rgba(33, 150, 243, .25);
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 .btn.disabled,
 .btn:disabled
@@ -3965,11 +3991,15 @@ select.form-control-lg:not([size]):not([multiple]),
     cursor: not-allowed;
 
     opacity: .65;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 .btn:active,
 .btn.active
 {
     background-image: none;
+    -webkit-box-shadow: none, inset 0 3px 5px rgba(0, 0, 0, .125);
+            box-shadow: none, inset 0 3px 5px rgba(0, 0, 0, .125);
 }
 
 a.btn.disabled,
@@ -3983,6 +4013,8 @@ fieldset[disabled] a.btn
     color: #fff;
     border-color: #2196f3;
     background-color: #2196f3;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 .btn-primary:hover
 {
@@ -3993,8 +4025,8 @@ fieldset[disabled] a.btn
 .btn-primary:focus,
 .btn-primary.focus
 {
-    -webkit-box-shadow: 0 0 0 2px rgba(33, 150, 243, .5);
-            box-shadow: 0 0 0 2px rgba(33, 150, 243, .5);
+    -webkit-box-shadow: none, 0 0 0 2px rgba(33, 150, 243, .5);
+            box-shadow: none, 0 0 0 2px rgba(33, 150, 243, .5);
 }
 .btn-primary.disabled,
 .btn-primary:disabled
@@ -4010,6 +4042,8 @@ fieldset[disabled] a.btn
     border-color: #0b76cc;
     background-color: #0c7cd5;
     background-image: none;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+            box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
 }
 
 .btn-secondary
@@ -4017,6 +4051,8 @@ fieldset[disabled] a.btn
     color: #fff;
     border-color: #3a3a3a;
     background-color: #3a3a3a;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 .btn-secondary:hover
 {
@@ -4027,8 +4063,8 @@ fieldset[disabled] a.btn
 .btn-secondary:focus,
 .btn-secondary.focus
 {
-    -webkit-box-shadow: 0 0 0 2px rgba(58, 58, 58, .5);
-            box-shadow: 0 0 0 2px rgba(58, 58, 58, .5);
+    -webkit-box-shadow: none, 0 0 0 2px rgba(58, 58, 58, .5);
+            box-shadow: none, 0 0 0 2px rgba(58, 58, 58, .5);
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled
@@ -4044,6 +4080,8 @@ fieldset[disabled] a.btn
     border-color: #1b1b1b;
     background-color: #212121;
     background-image: none;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+            box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
 }
 
 .btn-info
@@ -4051,6 +4089,8 @@ fieldset[disabled] a.btn
     color: #fff;
     border-color: #5bc0de;
     background-color: #5bc0de;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 .btn-info:hover
 {
@@ -4061,8 +4101,8 @@ fieldset[disabled] a.btn
 .btn-info:focus,
 .btn-info.focus
 {
-    -webkit-box-shadow: 0 0 0 2px rgba(91, 192, 222, .5);
-            box-shadow: 0 0 0 2px rgba(91, 192, 222, .5);
+    -webkit-box-shadow: none, 0 0 0 2px rgba(91, 192, 222, .5);
+            box-shadow: none, 0 0 0 2px rgba(91, 192, 222, .5);
 }
 .btn-info.disabled,
 .btn-info:disabled
@@ -4078,6 +4118,8 @@ fieldset[disabled] a.btn
     border-color: #2aabd2;
     background-color: #31b0d5;
     background-image: none;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+            box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
 }
 
 .btn-success
@@ -4085,6 +4127,8 @@ fieldset[disabled] a.btn
     color: #fff;
     border-color: #4caf50;
     background-color: #4caf50;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 .btn-success:hover
 {
@@ -4095,8 +4139,8 @@ fieldset[disabled] a.btn
 .btn-success:focus,
 .btn-success.focus
 {
-    -webkit-box-shadow: 0 0 0 2px rgba(76, 175, 80, .5);
-            box-shadow: 0 0 0 2px rgba(76, 175, 80, .5);
+    -webkit-box-shadow: none, 0 0 0 2px rgba(76, 175, 80, .5);
+            box-shadow: none, 0 0 0 2px rgba(76, 175, 80, .5);
 }
 .btn-success.disabled,
 .btn-success:disabled
@@ -4112,6 +4156,8 @@ fieldset[disabled] a.btn
     border-color: #39843c;
     background-color: #3d8b40;
     background-image: none;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+            box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
 }
 
 .btn-warning
@@ -4119,6 +4165,8 @@ fieldset[disabled] a.btn
     color: #fff;
     border-color: #ff9800;
     background-color: #ff9800;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 .btn-warning:hover
 {
@@ -4129,8 +4177,8 @@ fieldset[disabled] a.btn
 .btn-warning:focus,
 .btn-warning.focus
 {
-    -webkit-box-shadow: 0 0 0 2px rgba(255, 152, 0, .5);
-            box-shadow: 0 0 0 2px rgba(255, 152, 0, .5);
+    -webkit-box-shadow: none, 0 0 0 2px rgba(255, 152, 0, .5);
+            box-shadow: none, 0 0 0 2px rgba(255, 152, 0, .5);
 }
 .btn-warning.disabled,
 .btn-warning:disabled
@@ -4146,6 +4194,8 @@ fieldset[disabled] a.btn
     border-color: #c27400;
     background-color: #cc7a00;
     background-image: none;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+            box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
 }
 
 .btn-danger
@@ -4153,6 +4203,8 @@ fieldset[disabled] a.btn
     color: #fff;
     border-color: #f44336;
     background-color: #f44336;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 .btn-danger:hover
 {
@@ -4163,8 +4215,8 @@ fieldset[disabled] a.btn
 .btn-danger:focus,
 .btn-danger.focus
 {
-    -webkit-box-shadow: 0 0 0 2px rgba(244, 67, 54, .5);
-            box-shadow: 0 0 0 2px rgba(244, 67, 54, .5);
+    -webkit-box-shadow: none, 0 0 0 2px rgba(244, 67, 54, .5);
+            box-shadow: none, 0 0 0 2px rgba(244, 67, 54, .5);
 }
 .btn-danger.disabled,
 .btn-danger:disabled
@@ -4180,6 +4232,8 @@ fieldset[disabled] a.btn
     border-color: #e11b0c;
     background-color: #ea1c0d;
     background-image: none;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+            box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
 }
 
 .btn-outline-primary
@@ -4399,6 +4453,8 @@ fieldset[disabled] a.btn
 .btn-link:disabled
 {
     background-color: transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 .btn-link,
 .btn-link:focus,
@@ -4570,6 +4626,8 @@ tbody.collapse.show
     background-color: #fff;
     -webkit-background-clip: padding-box;
             background-clip: padding-box;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 
 .dropdown-divider
@@ -4815,6 +4873,17 @@ tbody.collapse.show
 {
     padding-right: 1.125rem;
     padding-left: 1.125rem;
+}
+
+.btn-group.open .dropdown-toggle
+{
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+            box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+.btn-group.open .dropdown-toggle.btn-link
+{
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 
 .btn-group-vertical
@@ -5095,7 +5164,7 @@ tbody.collapse.show
     display: -ms-inline-flexbox;
     display:         inline-flex;
 
-    min-height: 1.5rem;
+    min-height: 1.6rem;
     margin-right: 1rem;
     padding-left: 1.5rem;
 
@@ -5113,16 +5182,20 @@ tbody.collapse.show
 {
     color: #fff;
     background-color: #2196f3;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 .custom-control-input:focus ~ .custom-control-indicator
 {
-    -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 3px #2196f3;
-            box-shadow: 0 0 0 1px #fff, 0 0 0 3px #2196f3;
+    -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 6px #2196f3;
+            box-shadow: 0 0 0 1px #fff, 0 0 0 6px #2196f3;
 }
 .custom-control-input:active ~ .custom-control-indicator
 {
     color: #fff;
     background-color: #2196f3;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 .custom-control-input:disabled ~ .custom-control-indicator
 {
@@ -5140,7 +5213,7 @@ tbody.collapse.show
 .custom-control-indicator
 {
     position: absolute;
-    top: .25rem;
+    top: .3rem;
     left: 0;
 
     display: block;
@@ -5159,6 +5232,8 @@ tbody.collapse.show
     background-position: center center;
     -webkit-background-size: 50% 50%;
             background-size: 50% 50%;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 
 .custom-checkbox .custom-control-indicator
@@ -5173,6 +5248,8 @@ tbody.collapse.show
 {
     background-color: #2196f3;
     background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 4 4\'%3E%3Cpath stroke=\'%23fff\' d=\'M0 2h4\'/%3E%3C/svg%3E');
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 
 .custom-radio .custom-control-indicator
@@ -5232,6 +5309,8 @@ tbody.collapse.show
 {
     border-color: #0d8aee;
     outline: none;
+    -webkit-box-shadow: 0 0 5px rgba(13, 138, 238, .5);
+            box-shadow: 0 0 5px rgba(13, 138, 238, .5);
 }
 .custom-select:focus::-ms-value
 {
@@ -5282,6 +5361,11 @@ tbody.collapse.show
 
     filter: alpha(opacity=0);
 }
+.custom-file-input:focus ~ .custom-file-control
+{
+    -webkit-box-shadow: 0 0 0 .075rem #fff, 0 0 0 .2rem #2196f3;
+            box-shadow: 0 0 0 .075rem #fff, 0 0 0 .2rem #2196f3;
+}
 
 .custom-file-control
 {
@@ -5306,6 +5390,8 @@ tbody.collapse.show
     border: 1px solid #ccc;
     border-radius: .25rem;
     background-color: #fff;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 .custom-file-control:lang(en)::after
 {
@@ -7298,6 +7384,8 @@ button.close
     background-color: #fff;
     -webkit-background-clip: padding-box;
             background-clip: padding-box;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -7348,7 +7436,7 @@ button.close
 
 .modal-title
 {
-    line-height: 1.5;
+    line-height: 1.6;
 
     margin-bottom: 0;
 }
@@ -7413,6 +7501,12 @@ button.close
         margin: 30px auto;
     }
 
+    .modal-content
+    {
+        -webkit-box-shadow: none;
+                box-shadow: none;
+    }
+
     .modal-sm
     {
         max-width: 300px;
@@ -7427,11 +7521,11 @@ button.close
 }
 .tooltip
 {
-    font-family: 'mgenplus-c-w', -apple-system, BlinkMacSystemFont, 'GenShinGothic-w', 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
+    font-family: 'mgenplus-c-w', -apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'GenShinGothic-w', 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
     font-size: .875rem;
     font-weight: 400;
     font-style: normal;
-    line-height: 1.5;
+    line-height: 1.6;
 
     position: absolute;
     z-index: 1070;
@@ -7558,11 +7652,11 @@ button.close
 
 .popover
 {
-    font-family: 'mgenplus-c-w', -apple-system, BlinkMacSystemFont, 'GenShinGothic-w', 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
+    font-family: 'mgenplus-c-w', -apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'GenShinGothic-w', 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
     font-size: .875rem;
     font-weight: 400;
     font-style: normal;
-    line-height: 1.5;
+    line-height: 1.6;
 
     position: absolute;
     z-index: 1060;
@@ -7589,6 +7683,8 @@ button.close
     background-color: #fff;
     -webkit-background-clip: padding-box;
             background-clip: padding-box;
+    -webkit-box-shadow: none;
+            box-shadow: none;
     text-shadow: none;
 
     line-break: auto;
@@ -12765,12 +12861,13 @@ select,
 textarea,
 .text-font-mpc
 {
-    font-family: 'mgenplus-c-w', -apple-system, BlinkMacSystemFont, 'GenShinGothic-w', 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif !important;
+    font-family: 'mgenplus-c-w', -apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'GenShinGothic-w', 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif !important;
 }
 
-.text-font-mpp
+.text-font-mpp,
+.navbar-brand
 {
-    font-family: 'mgenplus-p-w', -apple-system, BlinkMacSystemFont, 'GenShinGothic-w', 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif !important;
+    font-family: 'mgenplus-p-w', -apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'GenShinGothic-w', 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif !important;
 }
 
 .navbar-inverse .navbar-brand
