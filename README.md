@@ -1,29 +1,29 @@
-# Chen
+# Suika
 
-[![Build Status by Travis CI](https://travis-ci.org/tamaina/Chen.svg?branch=master)](https://travis-ci.org/tamaina/Chen)
-[![Build status by AppVeyor](https://ci.appveyor.com/api/projects/status/b6rn5tseqbc0w3v7/branch/master?svg=true)](https://ci.appveyor.com/project/tamaina/chen/branch/master)
-[![devDependency Status](https://david-dm.org/tamaina/Chen/v4-dev/dev-status.svg)](https://david-dm.org/tamaina/Chen/v4-dev?type=dev)
+[![Build Status by Travis CI](https://travis-ci.org/tamaina/Suika.svg?branch=master)](https://travis-ci.org/tamaina/Suika)
+[![Build status by AppVeyor](https://ci.appveyor.com/api/projects/status/b6rn5tseqbc0w3v7/branch/master?svg=true)](https://ci.appveyor.com/project/tamaina/suika/branch/master)
+[![devDependency Status](https://david-dm.org/tamaina/Suika/master/dev-status.svg)](https://david-dm.org/tamaina/Suika/master?type=dev)
 [![The MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-[https://chen.tmin.cf/v4-alpha.4/](https://chen.tmin.cf/v4-alpha.4/)
+[https://suika.tmin.cf/v4-alpha.4/](https://suika.tmin.cf/v4-alpha.4/)
 
-[![Chen](docs/assets/img/sample.png)](https://chen.tmin.cf/v4-alpha.4/)
+[![Suika](docs/assets/img/sample.png)](https://suika.tmin.cf/v4-alpha.4/)
 
-"Chen" は日本語も美しく表示できるBootstrapテーマです。
+"Suika" は日本語も美しく表示できるBootstrapテーマです。
 
-## About "Chen"
+## About "Suika"
 
-通常の[Bootstrap](http://getbootstrap.com/)では、日本語のフォント指定や文字サイズは最適とはいえません。"Chen"のベースとなった["Honoka"](honokak.osaka)は、そんなBootstrapをベースに、日本語表示に適したフォント指定や、文字サイズに関するコードを追記したBootstrapテーマの一つです。
+通常の[Bootstrap](http://getbootstrap.com/)では、日本語のフォント指定や文字サイズは最適とはいえません。"Suika"のベースとなった["Honoka"](honokak.osaka)は、そんなBootstrapをベースに、日本語表示に適したフォント指定や、文字サイズに関するコードを追記したBootstrapテーマの一つです。
 
-"Chen"では、日本語JIS第2水準漢字まで対応のウェブフォントが付加されています。(英字フォントもちゃっかりM+ pに置き換わっています。)
+"Suika"では、日本語JIS第2水準漢字まで対応のウェブフォントが付加されています。(英字フォントもちゃっかりM+に置き換わっています。)
 
-きれいに日本語を表示したいけれど、游ゴシックが嫌いな方は、どうぞお使いください。
+簡単にエセ和風にしたい方は、どうぞお使いください。
 
 名前に意味は特にないです。そういう風潮だったので適当に東方Projectからキャラクターの名前を選んだだけです。
 
 ## Live Demo
 
- * [日本語デモ: https://chen.tmin.cf/v4-alpha.4/bootstrap.html](https://tamaina.github.io/Chen/bootstrap.html) 
+ * [日本語デモ: https://suika.tmin.cf/v4-alpha.4/bootstrap.html](https://suika.tmin.cf/v4-alpha.4/bootstrap.html) 
 
 ## Getting Started
 
@@ -45,7 +45,7 @@ Bootstrapをつかってウェブページを作成する際に基本となるHT
     <title>Bootstrap 雛形</title>
 
     <!-- BootstrapのCSS -->
-    <link href="https://cdn.tmin.cf/chen/4.0.0-alpha.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.tmin.cf/suika/4.0.0-alpha.4/css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
     <h1>Hello, world!</h1>
@@ -54,39 +54,39 @@ Bootstrapをつかってウェブページを作成する際に基本となるHT
     <!-- 「①jquery(v3系)」「②Tether」「③bootstrap(.min).js」の順で読み込みます。 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-    <script src="https://cdn.tmin.cf/chen/4.0.0-alpha.4/js/bootstrap.min.js"></script>
+    <script src="https://cdn.tmin.cf/suika/4.0.0-alpha.4/js/bootstrap.min.js"></script>
   </body>
 </html>
 ```
 
 ### CDN
 
-ChenではCloudFlareを利用したCDNを利用できます。
+SuikaではCloudFlareを利用したCDNを利用できます。
 
 ```html
-<link href="https://cdn.tmin.cf/chen/4.0.0-alpha.4/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.tmin.cf/suika/4.0.0-alpha.4/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-<script src="https://cdn.tmin.cf/chen/4.0.0-alpha.4/js/bootstrap.min.js"></script>
+<script src="https://cdn.tmin.cf/suika/4.0.0-alpha.4/js/bootstrap.min.js"></script>
 ```
 
 ### Download
 
-[Releases](https://github.com/tamaina/Chen/releases)から最新版をダウンロードしてください。
+[Releases](https://github.com/tamaina/Suika/releases)から最新版をダウンロードしてください。
 
 ### Bower
 
-[Bower](http://bower.io/)からインストールすることができます。パッケージ名は**Chen**です。
+[Bower](http://bower.io/)からインストールすることができます。パッケージ名は**Suika**です。
 
 以下のコマンドを実行してください。
 
 ```
-bower install --save-dev Chen#v4.0.0-alpha.4
+bower install --save-dev Suika#v4.0.0-alpha.4
 ```
 
 ## Usage
 
-Chenは単なるBootstrapテーマにしか過ぎないため，基本的な使い方は本家Bootstrapとほとんど変わりません。よって以下に書くことは[本家Bootstrap](http://v4-alpha.getbootstrap.com/getting-started/)からの引用，もしくはその一部を変更したものです。用意されたCSSクラスやコンポーネントなど，より詳細な使い方のドキュメントは本家Bootstrapの各種リファレンスページをご覧になることを推奨します。
+Suikaは単なるBootstrapテーマにしか過ぎないため，基本的な使い方は本家Bootstrapとほとんど変わりません。よって以下に書くことは[本家Bootstrap](http://v4-alpha.getbootstrap.com/getting-started/)からの引用，もしくはその一部を変更したものです。用意されたCSSクラスやコンポーネントなど，より詳細な使い方のドキュメントは本家Bootstrapの各種リファレンスページをご覧になることを推奨します。
 
 * [Documentation](http://v4-alpha.getbootstrap.com/getting-started/introduction/)
 
@@ -103,7 +103,7 @@ master/
 │   ├─ bootstrap.css
 │   └─ bootstrap.min.css
 ├─ fonts/
-│   ├─ (全36ファイル･省略)
+│   ├─ (全48ファイル･省略)
 └─ js/
      ├─ bootstrap.js
      └─ bootstrap.min.js
@@ -112,6 +112,8 @@ master/
 ### Do you hate WebFont?
 
 WebFontを利用したくない場合は、fork元の[Honoka](http://honokak.osaka)をご利用ください。
+
+普通の源真ゴシックは、fork元の[Honoka](http://chen.tmin.cf/v4-alpha.4)をご利用ください。
 
 というか、これを使うとどう足掻いても3MBの読み込みが必須になるため、使うのは良くないと思います(じゃあなぜ公開したし)。
 
@@ -123,7 +125,7 @@ WebFontを利用したくない場合は、fork元の[Honoka](http://honokak.osa
 
 [MIT License](LICENSE)
 
-但し源真ゴシック(GenShinGothicから始まるファイル群)は[SIL Open Font License 1.1](https://ja.osdn.net/projects/opensource/wiki/SIL_Open_Font_License_1.1)
+但しいろは角クラシック(GenShinGothic又はirohakakuCから始まるファイル群)は[SIL Open Font License 1.1](https://ja.osdn.net/projects/opensource/wiki/SIL_Open_Font_License_1.1)
 
 ## Author
 

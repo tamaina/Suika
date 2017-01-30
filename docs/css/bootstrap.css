@@ -1,4 +1,17 @@
 @charset 'UTF-8';
+/*!
+ * suika v4.0.0-alpha.4
+ * Website https://suika.tmin.cf/
+ * Copyright 2017 tamaina
+ * The MIT License
+ * Based on Honoka (http://honokak.osaka/) by windyakin
+ */
+/*!
+ * Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
+ * Copyright 2011-2017 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+ * Licensed under the MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
 @font-face
 {
     font-family: 'GenShinGothic-w';
