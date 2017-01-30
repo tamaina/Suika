@@ -1,6 +1,6 @@
 {
-  "name": "chen",
-  "description": "Chen is one of the Bootstrap original theme for Japanese.",
+  "name": "suika",
+  "description": "Suika is one of the Bootstrap original theme for Japanese.",
   "keywords": [
     "css",
     "sass",
@@ -15,10 +15,10 @@
     "touhou"
   ],
   "author": "tamaina",
-  "homepage": "https://tamaina.github.io/Chen",
+  "homepage": "https://suika.tamaina.cf/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/tamaina/chen.git"
+    "url": "git://github.com/tamaina/suika.git"
   },
   "license": "MIT",
   "moduleType": "globals",
