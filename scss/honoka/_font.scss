@@ -29,6 +29,35 @@
 	font-weight: 700;
 }
 
+// WebFont irohakakuC
+@font-face {
+	font-family: "irohakakuC-w";
+	src: url(#{$font-family-webfont-url}fonts/irohakakuC-Light.eot);
+	src: url(#{$font-family-webfont-url}fonts/irohakakuC-Light?#iefix.eot) format("embedded-opentype"),
+		url(#{$font-family-webfont-url}fonts/irohakakuC-Light.woff2) format("woff2"),
+		url(#{$font-family-webfont-url}fonts/irohakakuC-Light.woff) format("woff"),
+		url(#{$font-family-webfont-url}fonts/irohakakuC-Light.ttf) format("truetype");
+	font-weight: 200;
+}
+@font-face {
+	font-family: "irohakakuC-w";
+	src: url(#{$font-family-webfont-url}fonts/irohakakuC-Regular.eot);
+	src: url(#{$font-family-webfont-url}fonts/irohakakuC-Regular.eot?#iefix) format("embedded-opentype"),
+	url(#{$font-family-webfont-url}fonts/irohakakuC-Regular.woff2) format("woff2"),
+	url(#{$font-family-webfont-url}fonts/irohakakuC-Regular.woff) format("woff"),
+	url(#{$font-family-webfont-url}fonts/irohakakuC-Regular.ttf) format("truetype");
+	font-weight: 400;
+}
+@font-face {
+	font-family: "irohakakuC-w";
+	src: url(#{$font-family-webfont-url}fonts/irohakakuC-Bold.eot);
+	src: url(#{$font-family-webfont-url}fonts/irohakakuC-Bold.eot?#iefix) format("embedded-opentype"),
+	url(#{$font-family-webfont-url}fonts/irohakakuC-Bold.woff2) format("woff2"),
+	url(#{$font-family-webfont-url}fonts/irohakakuC-Bold.woff) format("woff"),
+	url(#{$font-family-webfont-url}fonts/irohakakuC-Bold.ttf) format("truetype");
+	font-weight: 700;
+}
+
 // WebFont mgenplus p
 @font-face {
 	font-family: "mgenplus-p-w";

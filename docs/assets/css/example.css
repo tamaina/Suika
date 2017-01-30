@@ -175,7 +175,7 @@
 
     text-align: center;
 
-    background-color: #de9aa1;
+    background-color: #ff7590;
     background-image: url('../img/circle.png');
     background-repeat: no-repeat;
     background-position: -35% center;
@@ -230,7 +230,7 @@ section.section.section-default
 section.section.section-inverse
 {
     color: #fff;
-    background-color: #95313b;
+    background-color: #c20026;
 }
 section.section.section-inverse .card
 {
