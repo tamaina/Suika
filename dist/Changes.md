@@ -4,7 +4,14 @@
 
 ----
 
-## [Last/PRE] v4.0.0-alpha.4
+## [Last/PRE] v4.0.0-alpha.5
+
+### 【修正】
+- cssの指定がローカルのirohakakuCになっていたのを修正
+
+----
+
+## [PRE] v4.0.0-alpha.4
 
 ### 【変更点】
 
