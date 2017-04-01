@@ -1,58 +1,51 @@
 @charset "UTF-8";
-
-// WebFont GenShinGothic
+//
+// "Noto Sans JP"(japanese) http://www.google.com/fonts/earlyaccess
+//
 @font-face {
-	font-family: "GenShinGothic-w";
-	src: url(#{$font-family-webfont-url}fonts/GenShinGothic-Light.eot);
-	src: url(#{$font-family-webfont-url}fonts/GenShinGothic-Light?#iefix.eot) format("embedded-opentype"),
-		url(#{$font-family-webfont-url}fonts/GenShinGothic-Light.woff2) format("woff2"),
-		url(#{$font-family-webfont-url}fonts/GenShinGothic-Light.woff) format("woff"),
-		url(#{$font-family-webfont-url}fonts/GenShinGothic-Light.ttf) format("truetype");
+	font-family: "Noto Sans JP";
+	font-style: normal;
 	font-weight: 200;
+	src: url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.woff2) format("woff2"),
+		url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.woff) format("woff"),
+		url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.otf) format("opentype");
 }
+
 @font-face {
-	font-family: "GenShinGothic-w";
-	src: url(#{$font-family-webfont-url}fonts/GenShinGothic-Regular.eot);
-	src: url(#{$font-family-webfont-url}fonts/GenShinGothic-Regular.eot?#iefix) format("embedded-opentype"),
-	url(#{$font-family-webfont-url}fonts/GenShinGothic-Regular.woff2) format("woff2"),
-	url(#{$font-family-webfont-url}fonts/GenShinGothic-Regular.woff) format("woff"),
-	url(#{$font-family-webfont-url}fonts/GenShinGothic-Regular.ttf) format("truetype");
+	font-family: "Noto Sans JP";
+	font-style: normal;
 	font-weight: 400;
-}
+	src: url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff2) format("woff2"),
+		url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff) format("woff"),
+		url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.otf) format("opentype");
+ }
 @font-face {
-	font-family: "GenShinGothic-w";
-	src: url(#{$font-family-webfont-url}fonts/GenShinGothic-Bold.eot);
-	src: url(#{$font-family-webfont-url}fonts/GenShinGothic-Bold.eot?#iefix) format("embedded-opentype"),
-	url(#{$font-family-webfont-url}fonts/GenShinGothic-Bold.woff2) format("woff2"),
-	url(#{$font-family-webfont-url}fonts/GenShinGothic-Bold.woff) format("woff"),
-	url(#{$font-family-webfont-url}fonts/GenShinGothic-Bold.ttf) format("truetype");
+	font-family: "Noto Sans JP";
+	font-style: normal;
 	font-weight: 700;
-}
+	src: url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.woff2) format("woff2"),
+		url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.woff) format("woff"),
+		url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.otf) format("opentype");
+ }
 
 // WebFont irohakakuC
 @font-face {
 	font-family: "irohakakuC-w";
-	src: url(#{$font-family-webfont-url}fonts/irohakakuC-Light.eot);
-	src: url(#{$font-family-webfont-url}fonts/irohakakuC-Light?#iefix.eot) format("embedded-opentype"),
-		url(#{$font-family-webfont-url}fonts/irohakakuC-Light.woff2) format("woff2"),
+	src: url(#{$font-family-webfont-url}fonts/irohakakuC-Light.woff2) format("woff2"),
 		url(#{$font-family-webfont-url}fonts/irohakakuC-Light.woff) format("woff"),
 		url(#{$font-family-webfont-url}fonts/irohakakuC-Light.ttf) format("truetype");
 	font-weight: 200;
 }
 @font-face {
 	font-family: "irohakakuC-w";
-	src: url(#{$font-family-webfont-url}fonts/irohakakuC-Regular.eot);
-	src: url(#{$font-family-webfont-url}fonts/irohakakuC-Regular.eot?#iefix) format("embedded-opentype"),
-	url(#{$font-family-webfont-url}fonts/irohakakuC-Regular.woff2) format("woff2"),
+	src: url(#{$font-family-webfont-url}fonts/irohakakuC-Regular.woff2) format("woff2"),
 	url(#{$font-family-webfont-url}fonts/irohakakuC-Regular.woff) format("woff"),
 	url(#{$font-family-webfont-url}fonts/irohakakuC-Regular.ttf) format("truetype");
 	font-weight: 400;
 }
 @font-face {
 	font-family: "irohakakuC-w";
-	src: url(#{$font-family-webfont-url}fonts/irohakakuC-Bold.eot);
-	src: url(#{$font-family-webfont-url}fonts/irohakakuC-Bold.eot?#iefix) format("embedded-opentype"),
-	url(#{$font-family-webfont-url}fonts/irohakakuC-Bold.woff2) format("woff2"),
+	src: url(#{$font-family-webfont-url}fonts/irohakakuC-Bold.woff2) format("woff2"),
 	url(#{$font-family-webfont-url}fonts/irohakakuC-Bold.woff) format("woff"),
 	url(#{$font-family-webfont-url}fonts/irohakakuC-Bold.ttf) format("truetype");
 	font-weight: 700;
@@ -61,27 +54,21 @@
 // WebFont mgenplus p
 @font-face {
 	font-family: "mgenplus-p-w";
-	src: url(#{$font-family-webfont-url}fonts/mgenplus-p-light.eot);
-	src: url(#{$font-family-webfont-url}fonts/mgenplus-p-light.eot?#iefix) format("embedded-opentype"),
-	url(#{$font-family-webfont-url}fonts/mgenplus-p-light.woff2) format("woff2"),
+	src: url(#{$font-family-webfont-url}fonts/mgenplus-p-light.woff2) format("woff2"),
 	url(#{$font-family-webfont-url}fonts/mgenplus-p-light.woff) format("woff"),
 	url(#{$font-family-webfont-url}fonts/mgenplus-p-light.ttf) format("truetype");
 	font-weight: 200;
 }
 @font-face {
 	font-family: "mgenplus-p-w";
-	src: url(#{$font-family-webfont-url}fonts/mgenplus-p-regular.eot);
-	src: url(#{$font-family-webfont-url}fonts/mgenplus-p-regular.eot?#iefix) format("embedded-opentype"),
-	url(#{$font-family-webfont-url}fonts/mgenplus-p-regular.woff2) format("woff2"),
+	src: url(#{$font-family-webfont-url}fonts/mgenplus-p-regular.woff2) format("woff2"),
 	url(#{$font-family-webfont-url}fonts/mgenplus-p-regular.woff) format("woff"),
 	url(#{$font-family-webfont-url}fonts/mgenplus-p-regular.ttf) format("truetype");
 	font-weight: 400;
 }
 @font-face {
 	font-family: "mgenplus-p-w";
-	src: url(#{$font-family-webfont-url}fonts/mgenplus-p-bold.eot);
-	src: url(#{$font-family-webfont-url}fonts/mgenplus-p-bold.eot?#iefix) format("embedded-opentype"),
-	url(#{$font-family-webfont-url}fonts/mgenplus-p-bold.woff2) format("woff2"),
+	src: url(#{$font-family-webfont-url}fonts/mgenplus-p-bold.woff2) format("woff2"),
 	url(#{$font-family-webfont-url}fonts/mgenplus-p-bold.woff) format("woff"),
 	url(#{$font-family-webfont-url}fonts/mgenplus-p-bold.ttf) format("truetype");
 	font-weight: 700;
@@ -90,27 +77,21 @@
 // WebFont mgenplus c
 @font-face {
 	font-family: "mgenplus-c-w";
-	src: url(#{$font-family-webfont-url}fonts/mgenplus-c-light.eot);
-	src: url(#{$font-family-webfont-url}fonts/mgenplus-c-light.eot?#iefix) format("embedded-opentype"),
-	url(#{$font-family-webfont-url}fonts/mgenplus-c-light.woff2) format("woff2"),
+	src: url(#{$font-family-webfont-url}fonts/mgenplus-c-light.woff2) format("woff2"),
 	url(#{$font-family-webfont-url}fonts/mgenplus-c-light.woff) format("woff"),
 	url(#{$font-family-webfont-url}fonts/mgenplus-c-light.ttf) format("truetype");
 	font-weight: 200;
 }
 @font-face {
 	font-family: "mgenplus-c-w";
-	src: url(#{$font-family-webfont-url}fonts/mgenplus-c-regular.eot);
-	src: url(#{$font-family-webfont-url}fonts/mgenplus-c-regular.eot?#iefix) format("embedded-opentype"),
-	url(#{$font-family-webfont-url}fonts/mgenplus-c-regular.woff2) format("woff2"),
+	src: url(#{$font-family-webfont-url}fonts/mgenplus-c-regular.woff2) format("woff2"),
 	url(#{$font-family-webfont-url}fonts/mgenplus-c-regular.woff) format("woff"),
 	url(#{$font-family-webfont-url}fonts/mgenplus-c-regular.ttf) format("truetype");
 	font-weight: 400;
 }
 @font-face {
 	font-family: "mgenplus-c-w";
-	src: url(#{$font-family-webfont-url}fonts/mgenplus-c-bold.eot);
-	src: url(#{$font-family-webfont-url}fonts/mgenplus-c-bold.eot?#iefix) format("embedded-opentype"),
-	url(#{$font-family-webfont-url}fonts/mgenplus-c-bold.woff2) format("woff2"),
+	src: url(#{$font-family-webfont-url}fonts/mgenplus-c-bold.woff2) format("woff2"),
 	url(#{$font-family-webfont-url}fonts/mgenplus-c-bold.woff) format("woff"),
 	url(#{$font-family-webfont-url}fonts/mgenplus-c-bold.ttf) format("truetype");
 	font-weight: 700;

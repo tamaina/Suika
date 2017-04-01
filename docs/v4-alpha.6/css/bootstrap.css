@@ -1,6 +1,6 @@
 @charset 'UTF-8';
 /*!
- * suika v4.0.0-alpha.5
+ * suika v4.0.0-alpha.6
  * Website https://suika.tmin.cf/
  * Copyright 2017 tamaina
  * The MIT License
@@ -14,99 +14,90 @@
 
 @font-face
 {
-    font-family: 'GenShinGothic-w';
+    font-family: 'Noto Sans JP';
     font-weight: 200;
+    font-style: normal;
 
-    src: url(../fonts/GenShinGothic-Light.eot);
-    src: url(../fonts/GenShinGothic-Light?#iefix.eot) format('embedded-opentype'), url(../fonts/GenShinGothic-Light.woff2) format('woff2'), url(../fonts/GenShinGothic-Light.woff) format('woff'), url(../fonts/GenShinGothic-Light.ttf) format('truetype');
+    src: url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.woff) format('woff'), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.otf) format('opentype');
 }
 @font-face
 {
-    font-family: 'GenShinGothic-w';
+    font-family: 'Noto Sans JP';
     font-weight: 400;
+    font-style: normal;
 
-    src: url(../fonts/GenShinGothic-Regular.eot);
-    src: url(../fonts/GenShinGothic-Regular.eot?#iefix) format('embedded-opentype'), url(../fonts/GenShinGothic-Regular.woff2) format('woff2'), url(../fonts/GenShinGothic-Regular.woff) format('woff'), url(../fonts/GenShinGothic-Regular.ttf) format('truetype');
+    src: url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff) format('woff'), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.otf) format('opentype');
 }
 @font-face
 {
-    font-family: 'GenShinGothic-w';
+    font-family: 'Noto Sans JP';
     font-weight: 700;
+    font-style: normal;
 
-    src: url(../fonts/GenShinGothic-Bold.eot);
-    src: url(../fonts/GenShinGothic-Bold.eot?#iefix) format('embedded-opentype'), url(../fonts/GenShinGothic-Bold.woff2) format('woff2'), url(../fonts/GenShinGothic-Bold.woff) format('woff'), url(../fonts/GenShinGothic-Bold.ttf) format('truetype');
+    src: url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.woff) format('woff'), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.otf) format('opentype');
 }
 @font-face
 {
     font-family: 'irohakakuC-w';
     font-weight: 200;
 
-    src: url(../fonts/irohakakuC-Light.eot);
-    src: url(../fonts/irohakakuC-Light?#iefix.eot) format('embedded-opentype'), url(../fonts/irohakakuC-Light.woff2) format('woff2'), url(../fonts/irohakakuC-Light.woff) format('woff'), url(../fonts/irohakakuC-Light.ttf) format('truetype');
+    src: url(../fonts/irohakakuC-Light.woff2) format('woff2'), url(../fonts/irohakakuC-Light.woff) format('woff'), url(../fonts/irohakakuC-Light.ttf) format('truetype');
 }
 @font-face
 {
     font-family: 'irohakakuC-w';
     font-weight: 400;
 
-    src: url(../fonts/irohakakuC-Regular.eot);
-    src: url(../fonts/irohakakuC-Regular.eot?#iefix) format('embedded-opentype'), url(../fonts/irohakakuC-Regular.woff2) format('woff2'), url(../fonts/irohakakuC-Regular.woff) format('woff'), url(../fonts/irohakakuC-Regular.ttf) format('truetype');
+    src: url(../fonts/irohakakuC-Regular.woff2) format('woff2'), url(../fonts/irohakakuC-Regular.woff) format('woff'), url(../fonts/irohakakuC-Regular.ttf) format('truetype');
 }
 @font-face
 {
     font-family: 'irohakakuC-w';
     font-weight: 700;
 
-    src: url(../fonts/irohakakuC-Bold.eot);
-    src: url(../fonts/irohakakuC-Bold.eot?#iefix) format('embedded-opentype'), url(../fonts/irohakakuC-Bold.woff2) format('woff2'), url(../fonts/irohakakuC-Bold.woff) format('woff'), url(../fonts/irohakakuC-Bold.ttf) format('truetype');
+    src: url(../fonts/irohakakuC-Bold.woff2) format('woff2'), url(../fonts/irohakakuC-Bold.woff) format('woff'), url(../fonts/irohakakuC-Bold.ttf) format('truetype');
 }
 @font-face
 {
     font-family: 'mgenplus-p-w';
     font-weight: 200;
 
-    src: url(../fonts/mgenplus-p-light.eot);
-    src: url(../fonts/mgenplus-p-light.eot?#iefix) format('embedded-opentype'), url(../fonts/mgenplus-p-light.woff2) format('woff2'), url(../fonts/mgenplus-p-light.woff) format('woff'), url(../fonts/mgenplus-p-light.ttf) format('truetype');
+    src: url(../fonts/mgenplus-p-light.woff2) format('woff2'), url(../fonts/mgenplus-p-light.woff) format('woff'), url(../fonts/mgenplus-p-light.ttf) format('truetype');
 }
 @font-face
 {
     font-family: 'mgenplus-p-w';
     font-weight: 400;
 
-    src: url(../fonts/mgenplus-p-regular.eot);
-    src: url(../fonts/mgenplus-p-regular.eot?#iefix) format('embedded-opentype'), url(../fonts/mgenplus-p-regular.woff2) format('woff2'), url(../fonts/mgenplus-p-regular.woff) format('woff'), url(../fonts/mgenplus-p-regular.ttf) format('truetype');
+    src: url(../fonts/mgenplus-p-regular.woff2) format('woff2'), url(../fonts/mgenplus-p-regular.woff) format('woff'), url(../fonts/mgenplus-p-regular.ttf) format('truetype');
 }
 @font-face
 {
     font-family: 'mgenplus-p-w';
     font-weight: 700;
 
-    src: url(../fonts/mgenplus-p-bold.eot);
-    src: url(../fonts/mgenplus-p-bold.eot?#iefix) format('embedded-opentype'), url(../fonts/mgenplus-p-bold.woff2) format('woff2'), url(../fonts/mgenplus-p-bold.woff) format('woff'), url(../fonts/mgenplus-p-bold.ttf) format('truetype');
+    src: url(../fonts/mgenplus-p-bold.woff2) format('woff2'), url(../fonts/mgenplus-p-bold.woff) format('woff'), url(../fonts/mgenplus-p-bold.ttf) format('truetype');
 }
 @font-face
 {
     font-family: 'mgenplus-c-w';
     font-weight: 200;
 
-    src: url(../fonts/mgenplus-c-light.eot);
-    src: url(../fonts/mgenplus-c-light.eot?#iefix) format('embedded-opentype'), url(../fonts/mgenplus-c-light.woff2) format('woff2'), url(../fonts/mgenplus-c-light.woff) format('woff'), url(../fonts/mgenplus-c-light.ttf) format('truetype');
+    src: url(../fonts/mgenplus-c-light.woff2) format('woff2'), url(../fonts/mgenplus-c-light.woff) format('woff'), url(../fonts/mgenplus-c-light.ttf) format('truetype');
 }
 @font-face
 {
     font-family: 'mgenplus-c-w';
     font-weight: 400;
 
-    src: url(../fonts/mgenplus-c-regular.eot);
-    src: url(../fonts/mgenplus-c-regular.eot?#iefix) format('embedded-opentype'), url(../fonts/mgenplus-c-regular.woff2) format('woff2'), url(../fonts/mgenplus-c-regular.woff) format('woff'), url(../fonts/mgenplus-c-regular.ttf) format('truetype');
+    src: url(../fonts/mgenplus-c-regular.woff2) format('woff2'), url(../fonts/mgenplus-c-regular.woff) format('woff'), url(../fonts/mgenplus-c-regular.ttf) format('truetype');
 }
 @font-face
 {
     font-family: 'mgenplus-c-w';
     font-weight: 700;
 
-    src: url(../fonts/mgenplus-c-bold.eot);
-    src: url(../fonts/mgenplus-c-bold.eot?#iefix) format('embedded-opentype'), url(../fonts/mgenplus-c-bold.woff2) format('woff2'), url(../fonts/mgenplus-c-bold.woff) format('woff'), url(../fonts/mgenplus-c-bold.ttf) format('truetype');
+    src: url(../fonts/mgenplus-c-bold.woff2) format('woff2'), url(../fonts/mgenplus-c-bold.woff) format('woff'), url(../fonts/mgenplus-c-bold.ttf) format('truetype');
 }
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 html
@@ -533,7 +524,7 @@ html
 
 body
 {
-    font-family: 'mgenplus-c-w', 'irohakakuC-w', 'Segoe UI Emoji', 'GenShinGothic-w', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
+    font-family: 'mgenplus-c-w', 'irohakakuC-w', 'Segoe UI Emoji', 'Noto Sans JP', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.6;
@@ -792,7 +783,7 @@ h6,
 .h5,
 .h6
 {
-    font-family: 'mgenplus-p-w', 'irohakakuC-w', 'Segoe UI Emoji', 'GenShinGothic-w', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
+    font-family: 'mgenplus-p-w', 'irohakakuC-w', 'Segoe UI Emoji', 'Noto Sans JP', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
     font-weight: 700;
     line-height: 1.1;
 
@@ -1015,7 +1006,7 @@ kbd,
 pre,
 samp
 {
-    font-family: Menlo, Monaco, Consolas, 'Courier New', 'GenShinGothic-w', monospace;
+    font-family: Menlo, Monaco, Consolas, 'Courier New', 'Noto Sans JP', monospace;
 }
 
 code
@@ -7555,7 +7546,7 @@ button.close
 }
 .tooltip
 {
-    font-family: 'mgenplus-c-w', 'irohakakuC-w', 'Segoe UI Emoji', 'GenShinGothic-w', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
+    font-family: 'mgenplus-c-w', 'irohakakuC-w', 'Segoe UI Emoji', 'Noto Sans JP', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
     font-size: .875rem;
     font-weight: 400;
     font-style: normal;
@@ -7686,7 +7677,7 @@ button.close
 
 .popover
 {
-    font-family: 'mgenplus-c-w', 'irohakakuC-w', 'Segoe UI Emoji', 'GenShinGothic-w', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
+    font-family: 'mgenplus-c-w', 'irohakakuC-w', 'Segoe UI Emoji', 'Noto Sans JP', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
     font-size: .875rem;
     font-weight: 400;
     font-style: normal;
@@ -12895,13 +12886,13 @@ select,
 textarea,
 .text-font-mpc
 {
-    font-family: 'mgenplus-c-w', 'irohakakuC-w', 'Segoe UI Emoji', 'GenShinGothic-w', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif !important;
+    font-family: 'mgenplus-c-w', 'irohakakuC-w', 'Segoe UI Emoji', 'Noto Sans JP', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif !important;
 }
 
 .text-font-mpp,
 .navbar-brand
 {
-    font-family: 'mgenplus-p-w', 'irohakakuC-w', 'Segoe UI Emoji', 'GenShinGothic-w', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif !important;
+    font-family: 'mgenplus-p-w', 'irohakakuC-w', 'Segoe UI Emoji', 'Noto Sans JP', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif !important;
 }
 
 .navbar-inverse .navbar-brand
