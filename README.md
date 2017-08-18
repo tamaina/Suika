@@ -1,5 +1,7 @@
 # Suika
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tamaina/Suika.svg)](https://greenkeeper.io/)
+
 [![Build Status by Travis CI](https://travis-ci.org/tamaina/Suika.svg?branch=master)](https://travis-ci.org/tamaina/Suika)
 [![Build status by AppVeyor](https://ci.appveyor.com/api/projects/status/b6rn5tseqbc0w3v7/branch/master?svg=true)](https://ci.appveyor.com/project/tamaina/suika/branch/master)
 [![devDependency Status](https://david-dm.org/tamaina/Suika/master/dev-status.svg)](https://david-dm.org/tamaina/Suika/master?type=dev)
